@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import { FaClock, FaMoon } from 'react-icons/fa';
+import './assets/fonts/Fonts.css';
+import './components/base/_Base.sass';
+import {Switch, Route} from 'react-router-dom';
+import Layout from './components/Layout/Layout';
+import Managment from './components/managment/Managment';
+import Banner from './components/banner/Banner';
+import Award from './components/award/Award';
+import License from './components/license/License';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Switch>
+        <Route path="/license" component={License}/>
+        <Route path="/award" component={Award}/>
+        <Route path="/managment" component={Managment}/>
+        <Route exact path="/" component={Banner}/>
+      </Switch>
+    </Layout>
   );
 }
+
 
 export default App;

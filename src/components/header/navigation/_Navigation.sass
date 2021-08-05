@@ -1,0 +1,88 @@
+
+@import './../../mixins/_Mixins';
+.nav 
+    background: #357ECB
+
+.header__nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    list-style-type: none
+    padding: 0
+    margin: 0
+    // margin: 0
+.nav__item
+    position: relative
+
+// .nav__item:hover
+    // background: #fff
+    transition: 0.5s
+// .nav__link:hover
+//     color: #357ECB
+
+.nav__link
+    display: block
+    padding: 20px 20px
+    font-family: 'Roboto Condensed'
+    font-weight: 700
+    font-size: 22px
+    color: #FFFFFF
+    text-decoration: none
+.nav__link:hover
+    background: #fff
+    color: #2B2B2B
+    // display: block
+// .nav__item.active
+//     background: #fff
+.nav__item:hover > .drop__menu
+    display: block
+    transition: 1s
+    z-index: 1
+
+.input__header
+    font-family: 'Roboto Condensed'
+    font-weight: 400
+    font-size: 18px
+    color: #CACACA
+    position: relative
+    padding: 11px 148px 11px 17px
+    border: 1px solid #357ECB
+    outline: none
+    background: #FFFFFF
+    border-radius: 20px
+.header__search
+    position: absolute
+    right: 170px
+    top: 314px
+.nav-down
+    width: 20px
+    height: 20px
+    color: #fff
+
+.nav_down
+    margin-left: 10px
+.nav-down:hover
+    color: #357ECB
+
+.drop__menu
+    position: absolute
+    top: 100%
+    list-style: none
+    padding: 10px 24px 25px
+    min-width: 151px
+    height: 363px
+    background: #FFFFFF
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25 )
+    display: none
+
+
+
+.drop__item
+    margin-bottom: 19px
+
+.drop__link
+    font-family: 'Roboto Condensed'
+    font-weight: 400
+    font-size: 18px
+    color: #2B2B2B
+    text-decoration: none

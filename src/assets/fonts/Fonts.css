@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+        url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+        url('OpenSans-SemiBold.woff2') format('woff2'),
+        url('OpenSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+        url('RobotoCondensed-Bold.woff2') format('woff2'),
+        url('RobotoCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+        url('RobotoCondensed-Regular.woff2') format('woff2'),
+        url('RobotoCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
