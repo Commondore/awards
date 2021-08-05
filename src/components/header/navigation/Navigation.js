@@ -23,7 +23,7 @@ function Navigation() {
                                 <a href="#" className="drop__link">Структура</a>
                             </li>
                             <li className="drop__item">
-                                <a href="#" className="drop__link">История</a>
+                                <Link to ="/history" className="drop__link">История</Link>
                             </li>
                             <li className="drop__item">
                                 <Link to="/award" className="drop__link">Награды</Link>

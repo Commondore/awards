@@ -16,7 +16,7 @@ function Secnav() {
                         <a href="" className="secnav__link">Структура</a>
                     </li>
                     <li className="secnav__item">
-                        <a href="" className="secnav__link">История</a>
+                        <Link to ="/history" className="secnav__link">История</Link>
                     </li>
                     <li className="secnav__item">
                         <Link to="/award" className="secnav__link">Награды</Link>
