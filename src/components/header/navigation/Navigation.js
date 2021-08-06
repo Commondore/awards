@@ -1,7 +1,6 @@
 import './_Navigation.sass';
 import search from './search.png';
 import down from './down.png';
-import {FaCaretDown} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -15,61 +14,72 @@ function Navigation() {
                     <li className="nav__item ">
                         <NavLink to="/" exact className="nav__link">Главная <img src={down} alt="" className="nav_down" /></NavLink>
                        
-                        <ul className="drop__menu">
-                            <li className="drop__item">
-                                <Link to="/management" className="drop__link">Руководство </Link>
+                        <ul className="nav__menu">
+                            <li className="item">
+                                <Link to="/managment" className="link">Руководство </Link>
                             </li>
-                            <li className="drop__item">
-                                <a href="#" className="drop__link">Структура</a>
+                            <li className="item">
+                                <Link to ="/ceiling" className="link">Структура</Link>
                             </li>
-                            <li className="drop__item">
-                                <Link to ="/history" className="drop__link">История</Link>
+                            <li className="item">
+                                <Link to ="/history" className="link">История</Link>
                             </li>
-                            <li className="drop__item">
-                                <Link to="/award" className="drop__link">Награды</Link>
+                            <li className="item">
+                                <Link to="/award" className="link">Награды</Link>
                             </li>
-                            <li className="drop__item">
-                                <a href="#" className="drop__link">Сертификаты</a>
+                            <li className="item">
+                                <Link to ="/table" className="link">Сертификаты</Link>
                             </li>
-                            <li className="drop__item">
-                                <Link to ="/license" className="drop__link"> Лицензии</Link>
+                            <li className="item">
+                                <Link to ="/license" className="link"> Лицензии</Link>
                             </li>
-                            <li className="drop__item">
-                                <a href="#" className="drop__link">Реквизиты</a>
+                            <li className="item">
+                                <Link to ="/balcon" className="link">Реквизиты</Link>
                             </li>
-                            <li className="drop__item">
-                                <a href="#" className="drop__link">Вакансии</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="nav__item">
-                        <a href="" className="nav__link">Деятельность <img src={down} alt="" className="nav_down" /> </a>
-                        <ul className="drop__menu">
-                        <li className="drop__item">
-                                <a href="#" className="drop__link">Изыскание и проектирование </a>
-                            </li>
-                            <li className="drop__item">
-                                <a href="#" className="drop__link">Контроль и надзор за выполнением и разработкой проектов</a>
-                            </li>
-                            <li className="drop__item">
-                                <a href="#" className="drop__link">Оказание консультационных услуг</a>
-                            </li>
-                            <li className="drop__item">
-                                <a href="#" className="drop__link">Научная деятельность</a>
+                            <li className="item">
+                                <Link to ="/job" className="link">Вакансии</Link>
                             </li>
                         </ul>
                     </li>
                     <li className="nav__item">
-                        <a href="" className="nav__link">Все обьекты  <img src={down} alt="" className="nav_down" /> </a>
+                        <NavLink to ="/effort" className="nav__link">Деятельность <img src={down} alt="" className="nav_down" /> </NavLink>
+                        <ul className="nav__menu">
+                        <li className="item">
+                                <Link to ="effort" className="link">Изыскание и проектирование </Link>
+                            </li>
+                            <li className="item">
+                                <Link to ="control" className="link">Контроль и надзор за выполнением и разработкой проектов</Link>
+                            </li>
+                            <li className="item">
+                                <Link to ="/service" className="link">Оказание консультационных услуг</Link>
+                            </li>
+                            <li className="item">
+                                <Link to="/study" className="link">Научная деятельность</Link>
+                            </li>
+                        </ul>
                     </li>
                     <li className="nav__item">
-                        <a href="" className="nav__link">Партнеры  <img src={down} alt="" className="nav_down" /></a>
+                        <NavLink to ="/pen" className="nav__link">Все обьекты  <img src={down} alt="" className="nav_down" /> </NavLink>
+                        <ul className="nav__menu">
+                            <li className="item">
+                                <Link to ="/pen" className="link">Объекты заданные в эксплуатацию</Link>
+                            </li>
+                            <li className="item">
+                                <Link to ="/stripe" className="link">Проектируемые</Link>
+                            </li>
+                            <li className="item">
+                                <Link to ="/zone" className="link">Реконструируемые</Link>
+                            </li>
+                        </ul>
                     </li>
                     <li className="nav__item">
-                        <a href="" className="nav__link">Госзакупки</a>
+                        <NavLink to ="/plane" className="nav__link">Партнеры  <img src={down} alt="" className="nav_down" /></NavLink>
                     </li>
                     <li className="nav__item">
-                        <a href="" className="nav__link">Новoсти</a>
+                        <NavLink to ="/purchase" className="nav__link">Госзакупки</NavLink>
+                    </li>
+                    <li className="nav__item">
+                        <NavLink to ="/news" className="nav__link">Новoсти</NavLink>
                     </li>
                     <li className="nav__item">
                         <a href="" className="nav__link">Контакты</a>

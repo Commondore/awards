@@ -1,18 +1,14 @@
 
-import './_License.sass'
-import love  from './love.png'
-import river from './river.png'
-import lamp from './lamp.png'
-import Secnav from '../secnav/Secnav';
-import Banner from './../../assets/img/Banner.png'
-
+import './_Zone.sass';
+import Rose from './../../assets/img/rose.png';
+import Navdecor from '../navdecor/Navdecor';
 import React from 'react'
 
-function License() {
+function Zone() {
     return (
         <div className="wrapper">
             <div className="container">
-            <img src={Banner} alt="" className="header-banner" />
+            <img src={Rose} alt="" className="header-banner" />
                     <div className="banner-content">
                         <h1 className="banner__title">О предприятии</h1>
                         <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
@@ -23,22 +19,11 @@ function License() {
                             настоящим Уставом и законодательством Кыргызской Республики.
                         </p>
                     </div>
-                <Secnav/>
-                <h2 className="license-title">Лицензии</h2>
-                <div className="license-group">
-                    <div className="license-item">
-                        <img src={love} alt="" className="license-img" />
-                    </div>
-                    <div className="license-item">
-                        <img src={river} alt="" className="license-img" />
-                    </div>
-                    <div className="license-item">
-                        <img src={lamp} alt="" className="license-img" />
-                    </div>
-                </div>
+                    <Navdecor/>
+                <h2 className="study-title">Реконструируемые</h2>
             </div>
         </div>
     )
 }
 
-export default License
+export default Zone

@@ -16,7 +16,7 @@
 
 // .nav__item:hover
     // background: #fff
-    transition: 0.5s
+    // transition: 0.5s
 // .nav__link:hover
 //     color: #357ECB
 
@@ -30,13 +30,16 @@
     text-decoration: none
 .nav__link:hover
     background: #fff
-    color: #2B2B2B
+    color: #2B2B28
+   
+   
+    transform: 1s
     // display: block
 // .nav__item.active
 //     background: #fff
-.nav__item:hover > .drop__menu
+.nav__item:hover > .nav__menu
     display: block
-    transition: 1s
+    // transition: 1s
     z-index: 1
 
 .input__header
@@ -64,7 +67,7 @@
 .nav-down:hover
     color: #357ECB
 
-.drop__menu
+.nav__menu
     position: absolute
     top: 100%
     list-style: none
@@ -77,10 +80,10 @@
 
 
 
-.drop__item
+.item
     margin-bottom: 19px
 
-.drop__link
+.link
     font-family: 'Roboto Condensed'
     font-weight: 400
     font-size: 18px

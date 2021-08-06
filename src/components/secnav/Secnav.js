@@ -13,7 +13,7 @@ function Secnav() {
                         <Link to="/managment" className="secnav__link">Руководство</Link>
                     </li>
                     <li className="secnav__item">
-                        <a href="" className="secnav__link">Структура</a>
+                        <Link to ="/ceiling" className="secnav__link">Структура</Link>
                     </li>
                     <li className="secnav__item">
                         <Link to ="/history" className="secnav__link">История</Link>
@@ -22,16 +22,16 @@ function Secnav() {
                         <Link to="/award" className="secnav__link">Награды</Link>
                     </li>
                     <li className="secnav__item">
-                        <a href="" className="secnav__link">Сертификаты</a>
+                        <a href="/table" className="secnav__link">Сертификаты</a>
                     </li>
                     <li className="secnav__item">
                         <Link to ="/license" className="secnav__link">Лицензии</Link>
                     </li>
                     <li className="secnav__item">
-                        <a href="" className="secnav__link">Реквизиты</a>
+                        <Link to ="/balcon" className="secnav__link">Реквизиты</Link>
                     </li>
                     <li className="secnav__item">
-                        <a href="" className="secnav__link">Вакансии</a>
+                        <Link to ="/job" className="secnav__link">Вакансии</Link>
                     </li>
                 </ul>
             </div>
