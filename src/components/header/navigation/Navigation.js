@@ -82,7 +82,7 @@ function Navigation() {
                         <NavLink to ="/news" className="nav__link">Новoсти</NavLink>
                     </li>
                     <li className="nav__item">
-                        <a href="" className="nav__link">Контакты</a>
+                        <NavLink to ="/contact" className="nav__link">Контакты</NavLink>
                     </li>
                     <form action="" className="form">
                         <input type="search" className="input__header" placeholder="Введите ключевое слово..." />

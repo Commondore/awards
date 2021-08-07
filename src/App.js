@@ -21,11 +21,15 @@ import Stripe from './components/stripe/Stripe';
 import Zone from './components/zone/Zone';
 import Purchase from './components/purchase/Purchase';
 import News from './components/news/News';
+import Newsday from './components/newsday/Newsday';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
     <Layout>
       <Switch>
+        <Route path="/contact" component={Contact}/>
+        <Route path="/newsday" component={Newsday}/>
         <Route path="/news" component={News}/>
         <Route path="/purchase" component={Purchase}/>
         <Route path='/zone' component={Zone}/>
