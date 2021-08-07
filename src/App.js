@@ -20,11 +20,13 @@ import Pen from './components/pen/Pen';
 import Stripe from './components/stripe/Stripe';
 import Zone from './components/zone/Zone';
 import Purchase from './components/purchase/Purchase';
+import News from './components/news/News';
 
 function App() {
   return (
     <Layout>
       <Switch>
+        <Route path="/news" component={News}/>
         <Route path="/purchase" component={Purchase}/>
         <Route path='/zone' component={Zone}/>
         <Route path="/stripe" component={Stripe}/>

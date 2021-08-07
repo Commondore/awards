@@ -1,7 +1,8 @@
 
 import './_Purchase.sass';
 import Rose from './../../assets/img/rose.png';
-import React from 'react'
+import React from 'react';
+import arrow from './arrow.png';
 
 function Purchase() {
     return (
@@ -85,6 +86,7 @@ function Purchase() {
                 </div>
                 <div className="copy">
                     <a href="#" className="purchase__link"> Скачать документ в электронном виде </a>
+                    <img src={arrow} alt="" className="arrow-img" />
                 </div>
             </div>
         </div>
