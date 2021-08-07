@@ -43,8 +43,8 @@ function Navigation() {
                     </li>
                     <li className="nav__item">
                         <NavLink to ="/effort" className="nav__link">Деятельность <img src={down} alt="" className="nav_down" /> </NavLink>
-                        <ul className="nav__menu">
-                        <li className="item">
+                        <ul className="nav__menu nav__menu-decor">
+                            <li className="item">
                                 <Link to ="effort" className="link">Изыскание и проектирование </Link>
                             </li>
                             <li className="item">
@@ -60,7 +60,7 @@ function Navigation() {
                     </li>
                     <li className="nav__item">
                         <NavLink to ="/pen" className="nav__link">Все обьекты  <img src={down} alt="" className="nav_down" /> </NavLink>
-                        <ul className="nav__menu">
+                        <ul className="nav__menu menu__header">
                             <li className="item">
                                 <Link to ="/pen" className="link">Объекты заданные в эксплуатацию</Link>
                             </li>

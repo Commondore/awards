@@ -36,7 +36,7 @@ function Contact() {
                     </p>
                 </div>
                 <img src={Map} alt="" className="contact-img" />
-                <form action="" className="form">
+                <form action="" className="form-contact">
                 <h2 className="contact-title-decor">Свяжитесь с нами</h2>
                     <div className="form-box">
                         <div className="form-left">
@@ -51,7 +51,8 @@ function Contact() {
                     <p className="form-slogan">Тема сообщения:</p>
                     <input type="text" className="form-input-decor" name="" placeholder="Тема сообщения"/>
                     <p className="form-slogan">Сообщение:</p>
-                    <textarea type="text" name="" id="" cols="83" rows="16" className="form-message" placeholder="Введите текст сообщения"></textarea>
+                    <textarea type="text" name="" id="" cols="83
+                    " rows="16" className="form-message" placeholder="Введите текст сообщения"></textarea>
                     <div className="form-btn">ОТПРАВИТЬ</div>
                 </form>
             </div>
