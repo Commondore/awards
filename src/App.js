@@ -23,11 +23,17 @@ import Purchase from './components/purchase/Purchase';
 import News from './components/news/News';
 import Newsday from './components/newsday/Newsday';
 import Contact from './components/contact/Contact';
+import Mobil from './containers/mobil/Mobil';
+import Plane from './components/plane/Plane';
+
+
 
 function App() {
   return (
     <Layout>
       <Switch>
+        <Route path="/plane" component={Plane}/>
+        <Route path="/mobil" component={Mobil}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/newsday" component={Newsday}/>
         <Route path="/news" component={News}/>

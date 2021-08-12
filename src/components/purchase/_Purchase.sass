@@ -1,11 +1,15 @@
+@import './../mixins/_Mixins';
 
+
+// .banner-title-purchase
+//     width: 100%
+//     margin: auto
 .purchase-title
     font-weight: 700
     font-size: 48px
     color: #282828
     line-height: 65px
     text-align: center
-    margin-top: 87px
 .purchase-slogan
     margin-left: 40px
     font-weight: 700
@@ -33,8 +37,8 @@
     color: #282828
     line-height: 24px
 .purchase-box
-    display: grid
-    grid-template-columns: 1fr 1fr
+    display: flex
+    // align-items: center
     margin-bottom: 120px
    
 
@@ -52,41 +56,60 @@
     color: #282828
     line-height: 24px
 .purchase-right
+    margin-left: 30px
     // background: #B3CFEB
-    width: 806px
+    // max-width: 100&
 .purchase-left
     // background: #B3CFEB
-    width: 790px
+    // max-width: 100%
 // .purchase-left
 //     width: 790px
     // background: #F4F8FC
 
 .slogan-left
+    padding: 15px 26px
+    width: 100%
+    margin: auto
+    // height: 30px
+    text-align: center
     display: inline-block
-    padding: 12px 327px
+    // padding: 12px 327px
+    font-weight: 600
     font-size: 18px
     color: #282828
     line-height: 24px
     background: #B3CFEB
+    line-height: 24px
 .left-group
     // width: 790px
     background: #F4F8FC
 .left-slogan
     display: inline-block
-    padding: 13px 26px 
+    padding: 15px 13px  20px
+    margin-bottom: 5px
+    margin-left: 15px
 .right-group
     background: #F4F8FC
     
 .slogan-right
+    padding: 15px 26px
     display: inline-block
-    padding: 12px 349px
+    // padding: 12px 349px
     font-size: 18px
     color: #282828
     line-height: 24px
     background: #B3CFEB
+    font-weight: 600
+    width: 100%
+    margin: auto
+    // height: 30px
+    text-align: center
 .right-slogan
     display: inline-block
-    padding: 15px 26px 
+    padding: 15px 13px  20px
+    margin-bottom: 0px
+    margin-left: 15px
+    // padding: 15px 20px 30px 
     // margin-bottom: 10px
 
 .copy
@@ -101,3 +124,12 @@
     color: #357ECB
 .arrow-img
     margin-left: 10px
+
+// .banner-title-purchase
+//     +media(1024px)
+//         top: 80px
+// .banner-text-purchase
+//     +media(768px)
+//         top: 200px
+//     +media(1024px)
+//         top: 180px

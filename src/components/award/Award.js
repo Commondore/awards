@@ -4,6 +4,12 @@ import img from './Diplom IMG.png'
 import pen from './pen.png'
 import Secnav from '../secnav/Secnav';
 import Banner from './../../assets/img/Banner.png'
+import award from './award.png';
+import snow from './snow.png';
+import pencil from './pencil.png';
+import summer from './summer.png';
+import ipad from './ipad.png';
+
 
 import React from 'react'
 
@@ -12,7 +18,10 @@ function Award() {
         <div className="wrapper">
             <div className="award">
                 <div className="container">
-                <img src={Banner} alt="" className="header-banner" />
+                    <div className="img-box">
+                        <img src={Banner} alt="" className="header-banner" />
+
+                    </div>
                     <div className="banner-content">
                         <h1 className="banner__title">О предприятии</h1>
                         <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
@@ -27,9 +36,27 @@ function Award() {
                     <h2 className="award-title">Награды</h2>
                     <div className="award-group">
                         <div className="award-item">
-                            <img src={img} alt="" className="award-img" />
+                            <img src={award} alt="" className="award-img" />
                         </div>
                         <div className="award-item">
+                            <img src={snow} alt="" className="award-img" />
+                        </div>
+                        <div className="award-item">
+                            <img src={pencil} alt="" className="award-img" />
+                        </div>
+                        <div className="award-item">
+                            <img src={summer} alt="" className="award-img" />
+                        </div>
+                        <div className="award-item">
+                            <img src={ipad} alt="" className="award-img" />
+                        </div>
+
+                         <div className="award-item">
+                            <img src={pen} alt="" className="award-img" />
+                        </div>
+
+
+                        {/* <div className="award-item">
                             <img src={pen} alt="" className="award-img" />
                         </div>
                         <div className="award-item">
@@ -37,22 +64,7 @@ function Award() {
                         </div>
                         <div className="award-item">
                             <img src={pen} alt="" className="award-img" />
-                        </div>
-                        <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>
-                        <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>
-                        <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>
-                        <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>
-                        <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>
+                        </div>  */}
                     </div>
                 </div>
             </div>

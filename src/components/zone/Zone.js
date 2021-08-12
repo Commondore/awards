@@ -3,12 +3,16 @@ import './_Zone.sass';
 import Rose from './../../assets/img/rose.png';
 import Navdecor from '../navdecor/Navdecor';
 import React from 'react'
+import Mininav from '../mininav/Mininav';
 
 function Zone() {
     return (
         <div className="wrapper">
             <div className="container">
-            <img src={Rose} alt="" className="header-banner" />
+                <div className="img-box">
+                    <img src={Rose} alt="" className="header-banner" />
+
+                </div>
                     <div className="banner-content">
                         <h1 className="banner__title">О предприятии</h1>
                         <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
@@ -20,6 +24,7 @@ function Zone() {
                         </p>
                     </div>
                     <Navdecor/>
+                    <Mininav/>
                 <h2 className="study-title">Реконструируемые</h2>
             </div>
         </div>

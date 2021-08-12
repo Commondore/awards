@@ -3,14 +3,21 @@
 .header-news 
     background: #357ECB
 
-
 .header-box
-    display: flex
-    align-items: center
-    max-width: 1611px
+    +media(411px)
+        display: none
+    +media(1175px)
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 0px 20px 0px 
+
 .header-news--left
     display: flex
-    margin-top: 6px
+
+
+  
+
     
 .news-clock
     font-family: 'Roboto Condensed'
@@ -21,8 +28,15 @@
     margin-left: 4px
 
 
+.news-clock:hover
+    color: red
+
+
 .header-moon
     margin-left: 20px
+
+.header-moon:hover
+    color: red
 
 .header-news__link
     font-family: 'Roboto Condensed'
@@ -30,13 +44,15 @@
     font-size: 18px
     color: #FFFFFF
     text-decoration: none
+
 .news__link
-    display: inline-block
+    display: block
     padding: 7px 28px
 
 .header-news--right
     display: flex
-    margin-left: 535px
+
+
 
 
 .header-news__link:hover
@@ -44,7 +60,8 @@
     color: #357ECB
     transition: 0.5s
 .news-info
-    margin-left: 20px
+    display: flex
+
 .news-kg
     font-family: 'Roboto Condensed'
     font-weight: 400

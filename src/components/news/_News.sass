@@ -1,48 +1,98 @@
+@import './../mixins/_Mixins';
+// .header-banner
+//     max-width: 100%
+// .header-banner-news
+//     margin-bottom: 30px
 
-.header-banner
-    max-width: 100%
-.header-banner-news
-    margin-bottom: 30px
+// .news-title
+//     font-weight: 700
+//     font-size: 48px
+//     color: #282828
+//     text-align: center
+//     margin-top: 57px
+.img-box-road
+    height: 749px
 
-.news-title
-    font-weight: 700
-    font-size: 48px
-    color: #282828
-    text-align: center
-    margin-top: 57px
 
 .road-img
+    object-fit: none
+    max-width: 100%
+    height: 100%
+
     position: relative
-    // width: 100%
     margin-top: 40px
-    margin-bottom: 30p
-    // width: 1386px
-    margin-left: 108px
    
 .news-slogan
     position: absolute
-    top: 1350px
-    right: 950px
+    font-weight: 700
+    top: 1260px
+    right: 850px
     background: rgba(255, 255, 255, 0.6 )
     padding: 10px 35px
-.mini__link
-    font-family: 'Roboto Condensed'
-    font-weight: 400
     color: #282828
-    text-decoration: none
-.news-decor
-    font-weight: 700
-    font-size: 28px
-    color: #282828
-    line-height: 54px
-.news-decor
-    margin: 0
+    +media(411px)
+        right: 22px
+        padding: 10px 20px
+        top: 1290px
+    +media(768px)
+        right: 170px
+        font-size: 24px
+        line-height: 34px
+        top: 1220px
+    +media(1024px)
+        font-size: 30px
+        padding: 15px 20px
+        right: 300px
+        top: 1200px
+        +media(1280px)
+            right: 410px
+            font-size: 36px
+            width: 800px
+            top: 1160px
+        +media(1350px)
+            right: 500px
+        +media(1920px)
+            right: 900px
+            top: 1150px
+// .news-decor-slogan
+//      +media(1024px)
+//          margin-top: 10px
+    //  +media(1280px)
+    //  margin-top: 15px
+    //  margin-bottom: 15px
+        // width: 649px
+// .mini__link
+//     font-family: 'Roboto Condensed'
+//     font-weight: 400
+//     color: #282828
+//     text-decoration: none
+// .news-decor
+//     margin-top: 0
+//     margin-bottom: 0
 .data-text
     font-weight: 700
     font-size: 18px
     color: #357ECB
-    margin-left: 110px
+    margin-left: 20px
+    margin-top: 70px
+
 .news-text 
     max-width: 1264px
     margin-bottom: 80px
-    margin-left: 110px
+    padding: 0px 20px
+.news-title
+    text-align: center
+// .news-title
+//       +media(411px)
+//         font-size: 24px
+//      +media(768px)
+//         font-size: 32px
+
+// .banner-title-news
+//     +media(1024px)
+//         top: 50px
+// .banner-text-news
+//     +media(768px)
+//         top: 200px
+//     +media(1024px)
+//         top: 150px

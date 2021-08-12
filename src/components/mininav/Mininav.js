@@ -8,7 +8,7 @@ function Mininav() {
         <div className="mini-nav">
             <Link to ="/" className="mini__link">Главная страница /</Link>
             <Link to ="/news" className="mini__link">Новости /</Link>
-            <Link to ="/newsday" className="mini__link">Новость дня</Link>
+            <Link to ="/contact" className="mini__link">Контакты</Link>
         </div>
 
     )

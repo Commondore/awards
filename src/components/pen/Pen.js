@@ -1,7 +1,7 @@
 
 import './_Pen.sass';
 import Rose from './../../assets/img/rose.png';
-
+import Mininav from '../mininav/Mininav';
 import React from 'react'
 import Navdecor from '../navdecor/Navdecor';
 
@@ -9,10 +9,13 @@ function Pen() {
     return (
         <div className="wrapper">
             <div className="container">
-            <img src={Rose} alt="" className="header-banner" />
+                <div className="img-box">
+                    <img src={Rose} alt="" className="header-banner" />
+
+                </div>
                     <div className="banner-content">
-                        <h1 className="banner__title">О предприятии</h1>
-                        <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
+                        <h1 className="banner__title banner-title-pen">О предприятии</h1>
+                        <p className="banner-text banner-text-pen">Государственное предприятие Проектно-изыскательский институт
                             "Кыргыздортранспроект" при министерстве транспорта и дорог Кыргызской Республики
                             является органом, ведающим вопросами науки и проектирования, разработки и внедрения
                             в производство проектов автомобильных дорог и сооружений, которые обеспечивают 
@@ -21,7 +24,8 @@ function Pen() {
                         </p>
                     </div>
                     <Navdecor/>
-                <h2 className="study-title">Объекты заданные в эксплуатацию</h2>
+                    <Mininav/>
+                <h2 className="pen-title">Объекты заданные в эксплуатацию</h2>
             </div>
         </div>
     )

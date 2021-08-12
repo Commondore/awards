@@ -9,10 +9,13 @@ function News() {
     return (
         <div className="wrapper">
             <div className="container">
-                <img src={Rose} alt="" className="header-banner header-banner-news" />
+                <div className="img-box">
+                    <img src={Rose} alt="" className="header-banner header-banner-news" />
+
+                </div>
                 <div className="banner-content">
-                    <h1 className="banner__title">О предприятии</h1>
-                    <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
+                    <h1 className="banner__title banner-title-news">О предприятии</h1>
+                    <p className="banner-text banner-text-news">Государственное предприятие Проектно-изыскательский институт
                         "Кыргыздортранспроект" при министерстве транспорта и дорог Кыргызской Республики
                         является органом, ведающим вопросами науки и проектирования, разработки и внедрения
                         в производство проектов автомобильных дорог и сооружений, которые обеспечивают 
@@ -22,7 +25,10 @@ function News() {
                 </div>
                 <Mininav className="content-nav"/>
                 <h2 className="news-title">Новости</h2>
+                <div className="img-box-road">
                 <img src={Road} alt="" className="road-img" />
+
+                </div>
                 <div className="news-slogan">
                     <p className="news-decor">Минтранс : на трассе </p>
                     <p className="news-decor news-decor-slogan">Бишкек - Ош делают ямочный ремонт</p>

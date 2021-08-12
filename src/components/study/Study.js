@@ -8,7 +8,10 @@ function Study() {
     return (
         <div className="wrapper">
             <div className="container">
+                <div className="img-box">
                 <img src={Banner} alt="" className="header-banner" />
+
+                </div>
                     <div className="banner-content">
                         <h1 className="banner__title">О предприятии</h1>
                         <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
@@ -20,8 +23,10 @@ function Study() {
                         </p>
                     </div>
                 <Submenu/>
-                <h2 className="study-title">Научная деятельность</h2>
                 <div className="study-box">
+
+                <h2 className="study-title">Научная деятельность</h2>
+               
                     <p className="study-text">-Обеспечение единой научно-технической стратегии в проведении научных
                     измерительныхисследований дорожного строительства; <br></br> - Внедрение новых строительных материалов,
                     изделий и конструкций;<br></br> - Разработка нормативных документов по капитальному строительству;<br></br>

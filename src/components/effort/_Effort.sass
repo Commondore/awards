@@ -1,24 +1,61 @@
-
+@import './../mixins/_Mixins';
 .effort
     max-width: 100%
     height: auto
+    overflow: hidden
 .effort-title
     font-weight: 700
     font-size: 48px
     color: #282828
     margin-left: 50px
     margin-top: 96px
+    +media(411px)
+        font-size: 24px
+        text-align: center
+        margin-left: 0
+        margin-top: 56px
+    +media(768px)
+        font-size: 36px
+        margin-top: 76px
+    +media(1024px)
+        font-size: 48px
+.img-robot
+    height: 1586px
+
+    margin-bottom: 79px
 .effort-img
-    position: relative
+    object-fit: none
+    max-width: 100%
+    height: 100%
+    // position: relative
     margin-top: 45px
     margin-bottom: 70px
+.submenu-effort
+    +media(411px)
+        display: none
 .effort-group
     background: rgba(0, 0, 0, 0.7)
     position: absolute
-    top: 1000px
-    right: 100px
+    top: 990px
+    right: 70px
     padding: 20px 40px 20px
-
+    // +media(411px)
+    //     display: none
+    // +media(768px)
+    //     display: block
+    //     top: 1015px
+    //     padding: 0
+    //     // margin-left: 60px
+    //     right: 30px
+    // +media(1024px)
+    //     top: 1140px
+    //     margin-left: 0
+    //     right: 70px
+    //     padding: 20px 40px 20px
+    // +media(1100px)
+    //     top: 1120px
+    // +media(1278px)
+    //     top: 1100px
 .effort-text
     font-weight: 600
     font-size: 18px
@@ -26,4 +63,36 @@
     color: #FFFFFF
     margin-bottom: 20px
 .effort-box
-    max-width: 813px
+    width: 813px
+    padding: 0px 15px
+    +media(768px)
+        width: 713px
+
+.text-group-effort
+    padding: 0px 20px
+.mini-effort-title
+    font-weight: 700
+    font-size: 48px
+    line-height: 65px
+    color: #282828
+    +media(411px)
+        font-size: 24px
+        text-align: center
+        line-height: 28px
+    +media(768px)
+        font-size: 36px
+        line-height: 44px 
+    +media(1024px)
+        font-size: 48px
+        line-height: 65px
+.text-box-effort
+    +media(411px)
+        font-size: 18px
+    +media(768px)
+        font-size: 24px
+        line-height: 32px
+.text-box-effort
+    font-weight: 600
+    font-size: 24px
+    line-height: 32px
+    color: #282828

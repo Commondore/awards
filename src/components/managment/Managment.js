@@ -12,7 +12,10 @@ function Managment() {
         <div className="wrapper">
             <div className="managment">
                 <div className="container">
-                <img src={Banner} alt="" className="header-banner" />
+                    <div className="img-box">
+                        <img src={Banner} alt="" className="header-banner" />
+
+                    </div>
                     <div className="banner-content">
                         <h1 className="banner__title">О предприятии</h1>
                         <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
@@ -43,7 +46,7 @@ function Managment() {
 
                             </div>
                             <div className="family-title">
-                                <p className="name-title">Ашымбеков Талайьек Нурланович</p>
+                                <p className="name-title">Ашымбеков Талайбек Нурланович</p>
                                 <hr className="line-decor"/>
                                 <p className="post-title">Заместитель Генерального Директора ПИИ "Кыргыздортранспроект"</p>
                             </div>
@@ -75,7 +78,6 @@ function Managment() {
                         <div className="card__item">
                             <div className="img-card">
                                 <img src={person} alt="" className="person-img" />
-
                             </div>
                             <div className="family-title">
                                 <p className="name-title">Кабулова Жанылбубу Адыгинеевна</p>
@@ -83,6 +85,7 @@ function Managment() {
                                 <p className="post-title">Начальник Отдела Инженерных Изысканий Управления проектами </p>
                             </div>
                         </div>
+
                         <div className="card__item">
                             <div className="img-card">
                                 <img src={man} alt="" className="person-img" />
@@ -100,12 +103,12 @@ function Managment() {
                             <div className="img-card">
                                 <img src={person} alt="" className="person-img" />
                             </div>
-       
                             <div className="family-title">
                                 <p className="name-title">Рокина Наталья Алексеевна</p>
                                 <hr className="line-decor"/>
                                 <p className="post-title">Начальник Отдела Смет Управления проектами</p>
                             </div>
+       
                         </div>
 
                         </div>

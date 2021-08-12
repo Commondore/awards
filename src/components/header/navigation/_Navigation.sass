@@ -4,23 +4,30 @@
     background: #357ECB
 
 .header__nav
-    display: flex
-    justify-content: space-between
-    align-items: center
-    list-style-type: none
-    padding: 0
-    margin: 0
+    +media(411px)
+        display: none
+    +media(1024px)
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style-type: none
+        padding: 0px 10px
+        margin: 0
+
 .nav__item
     position: relative
-
 .nav__link
     display: block
-    padding: 20px 20px
+    padding: 19px 5px
     font-family: 'Roboto Condensed'
     font-weight: 700
     font-size: 22px
     color: #FFFFFF
     text-decoration: none
+.nav__link.active
+    background: #fff
+    color: #2B2B28
+    transition: 0.5s
 .nav__link:hover
     background: #fff
     color: #2B2B28
@@ -43,10 +50,36 @@
     outline: none
     background: #FFFFFF
     border-radius: 20px
+    min-width: 366px
+    height: 46px
+.search__input
+    min-width: 230px
+    height: 40px
+    padding: 0 40px 0 12px
+    outline: none
+    font-family: "Roboto Condensed"
+    color: #CACACA
+    font-weight: 400
+    border-radius: 20px
+.search__form
+    position: relative
+.search__img
+    top: 11px
+    right: 0
+    bottom: 0
+    width: 21px
+    position: absolute
+    border: none
+    color: #7f7f7f
+    cursor: pointer
+    left: 198px
 .header__search
     position: absolute
-    right: 170px
-    top: 314px
+    // right: 230px
+    left: 1305px
+    top: 22px
+    bottom: 0
+    right: 0
 .nav-down
     width: 20px
     height: 20px
@@ -58,16 +91,22 @@
     color: #357ECB
 
 .nav__menu
+    margin: 0
     position: absolute
     top: 100%
     list-style: none
     padding: 0
-    width: 100%
-    height: 413px
+    width: 160px
+    height: 466px
     background: #FFFFFF
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25 )
     display: none
     z-index: 100
+.nav__menu-left
+    right: -20px
+    z-index: 100
+.nav__menu-decor
+
 
 
 

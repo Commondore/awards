@@ -1,10 +1,12 @@
 
 import React from 'react'
 import './_Header.sass';
-import moon from './moon.png';
+import moon from './../../assets/img/moon.png';
 import bars from './bars.png';
 import Logo from './logo/Logo';
 import Navigation from './navigation/Navigation';
+// import Banner from '../banner/Banner';
+
 
 
 
@@ -24,7 +26,7 @@ function Header() {
                                 <a href="" className="header-news__link news__link">Важные новости</a>
                                 <a href="" className="header-news__link news__link">Возобновились строительные работы на большом участке трассы Бишкек-Ош</a>
                             </div>
-
+                    
                             <div className="header-news--right">
                                 <a href="#" className="news-kg">Кыр</a>
                                 <span className="news-kg--decor">/</span>
@@ -37,9 +39,11 @@ function Header() {
                     </div>
                 </div>
                 <Logo/>
-                <Navigation/>
+                {/* <Banner/> */}
             </div>
+
         </div>
+            <Navigation/>
       
         </>
     )

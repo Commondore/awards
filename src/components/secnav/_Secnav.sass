@@ -1,13 +1,16 @@
-
+@import './../mixins/_Mixins';
 .secnav
     background: #357ECB
 
 .secnav__menu
+    // +media(320px)
+    //     display: none
+    // +media(1024px)
     list-style: none
     display: flex
     justify-content: space-between
     // padding: 18px 10px 18px
-    margin-top: 50px
+    margin-top: 71px
     padding: 0
     border: 2px solid #357ECB
 
@@ -19,8 +22,15 @@
     line-height: 30px
     color: #FFFFFF
     text-decoration: none
-
 .secnav__link:hover
+    background: #fff
+    color: #357ECB
+
+.secnav__link.active
     color: #282828
     background: #fff
     transition: 0.5s
+// .secnav__link:hover
+//     color: #282828
+//     background: #fff
+//     transition: 0.5s

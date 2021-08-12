@@ -12,7 +12,10 @@ function License() {
     return (
         <div className="wrapper">
             <div className="container">
-            <img src={Banner} alt="" className="header-banner" />
+                <div className="img-box">
+                     <img src={Banner} alt="" className="header-banner" />
+
+                </div>
                     <div className="banner-content">
                         <h1 className="banner__title">О предприятии</h1>
                         <p className="banner-text">Государственное предприятие Проектно-изыскательский институт

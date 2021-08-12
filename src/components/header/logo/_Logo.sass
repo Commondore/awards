@@ -1,14 +1,30 @@
 
 @import './../../mixins/_Mixins';
-
 .header-content
     display: flex
-    margin-top: 52px
-    margin-bottom: 52px
+    width: 100%
+    height: 75px
+    align-items: center
+    margin: 0 auto
+    text-align: center
+    padding: 20px 10px 0px
+    +media(1023px)
+        display: none
+.header__logo
+    +media(768px)
 
+        width: 100px
+        // height: 36px
 .header__title
+    // max-width: 100%
+    // text-align: center
     margin-left: 7px
+
+    // padding: 5px
 .header__title-kg
+    +media(411px)
+        display: none
+    +media(1024px)
     font-family: 'Roboto Condensed'
     font-weight: 700
     font-size: 20px
@@ -17,8 +33,36 @@
     margin-top: 5px
     margin-bottom: 26px
 
-.title-top
-    padding-left: 14px
+        display: block
+.title-small
+    color: #357ECB
+.header-burger
+    width: 24px
+    color: #357ECB
+    // position: fixed
+        // display: block
+        // display: none
+// .logo
+//     margin-top: 20px
+.title-box-kg
+    text-align: center
+.header__title-box
+    // display: flex
+    // align-items: center
+    // text-align: center
+    // width: 100%
+    // height: 75px
+.burger__menu
+    // position: relative
+     z-index: 120
+     color: #fff
+    // +media(411px)
+    // z-index: 101
+    right: 21px
+    top: 10px
+    position: absolute
+    display: block
+    width: 30px
+    height: 30px
+    cursor: pointer
 
-.title-bottom
-    padding-left: 80px

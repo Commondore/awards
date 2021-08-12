@@ -2,7 +2,7 @@
 import './_Secnav.sass';
 
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Secnav() {
     return (
@@ -10,28 +10,28 @@ function Secnav() {
             <div className="container">
                 <ul className="secnav__menu">
                     <li className="secnav__item">
-                        <Link to="/managment" className="secnav__link">Руководство</Link>
+                        <NavLink to="/managment" className="secnav__link">Руководство</NavLink>
+                    </li>
+                    {/* <li className="secnav__item">
+                        <NavLink to ="/ceiling" className="secnav__link">Структура</NavLink>
+                    </li> */}
+                    <li className="secnav__item">
+                        <NavLink to ="/history" className="secnav__link">История</NavLink>
                     </li>
                     <li className="secnav__item">
-                        <Link to ="/ceiling" className="secnav__link">Структура</Link>
+                        <NavLink to="/award" className="secnav__link">Награды</NavLink>
+                    </li>
+                    {/* <li className="secnav__item">
+                        <NavLink to="/table" className="secnav__link">Сертификаты</NavLink>
+                    </li> */}
+                    <li className="secnav__item">
+                        <NavLink to ="/license" className="secnav__link">Лицензии</NavLink>
                     </li>
                     <li className="secnav__item">
-                        <Link to ="/history" className="secnav__link">История</Link>
+                        <NavLink to ="/balcon" className="secnav__link">Реквизиты</NavLink>
                     </li>
                     <li className="secnav__item">
-                        <Link to="/award" className="secnav__link">Награды</Link>
-                    </li>
-                    <li className="secnav__item">
-                        <a href="/table" className="secnav__link">Сертификаты</a>
-                    </li>
-                    <li className="secnav__item">
-                        <Link to ="/license" className="secnav__link">Лицензии</Link>
-                    </li>
-                    <li className="secnav__item">
-                        <Link to ="/balcon" className="secnav__link">Реквизиты</Link>
-                    </li>
-                    <li className="secnav__item">
-                        <Link to ="/job" className="secnav__link">Вакансии</Link>
+                        <NavLink to ="/job" className="secnav__link">Вакансии</NavLink>
                     </li>
                 </ul>
             </div>
