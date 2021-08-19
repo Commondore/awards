@@ -1,43 +1,121 @@
-
+@import './../mixins/_Mixins';
 .manag-title
     font-weight: 700
-    font-size: 48px
     color: #000000
     text-align: center
     margin-top: 60px
-.img-box
-    height: 560px
-.header-banner
-    object-fit: none
-    max-width: 100%
-    height: 100%
+    margin-bottom: 60px
+    // +media_max(1920px)
+    font-size: 48px
+    line-height: 65px
+    // +media_max(768px)
+    // font-size: 24px
+
+// .img-box
+//     height: 560px
+// .header-banner
+//     object-fit: none
+//     max-width: 100%
+//     height: 100%
 .card__group
+    max-width: 100%
     margin-top: 70px
+    padding: 0px 220px
+    // +media_max(1920px)
+    // padding: 0px 220px
+
 .card__item
+    // +media_max(1920px)
+    // width: 100%
     display: flex
-    align-items: center
-    max-width: 1294px
+    // align-items: center
+    padding: 39px 75px 40px 75px
     margin: 0 auto
     border: 3px solid #2F70B4
-    padding: 30px 60px
     margin-bottom: 70px
+    // +media_max(1365px)
+    // flex-wrap: wrap
+    // flex-direction: column
+    // width: 100%
+    // justify-content: center
+    // align-items: center
+
+    // +media_max(1365px)
+    //     padding: 20px 40px
+    // +media_max(1024px)
+    //     width: 100%
+    //     min-height: auto
+    //     flex-direction: column
+    //     align-items: center
+    //     justify-content: center
+    // +media_max(768px)
+    //     padding: 25px 22px
+
+.img-card
+    display: block
+    max-width: 100%
+    // код карты
+        // max-width: 100%
+        // height: 389px
+        // text-align: center
+        // margin: auto
+
+.person-img
+    height: 375px
+    width: 300px
+    // +media_max(1365px)
+    //     width: 236px
+    //     height: 295px
+    // +media_max(768px)
+    //     width: 175px
+    //     height: 220px
+
+    // object-fit: none
+    // max-width: 100%
+    // height: 100%
+    // position: relative
 .name-title
+    width: 100%
     font-weight: 600
-    font-size: 36px
     color: #2f70b4
     line-height: 49px
+    margin-top: 0
+    font-size: 32px
+    // +media_max(1920px)
+    // font-size: 30px
+
+    // +media_max(1365px)
+    // font-size: 30px
+    // margin-bottom: 0
+    // line-height: 39px
+    // +media_max(1024px)
+    // font-size: 24px
+
     // margin-left: 150px
 .line-decor
     height: 3px 
     background-color: #2F70B4
     border: none
-    width: 552px
+    width: 100%
     margin-left: 0
 .post-title
     font-weight: 600
     font-size: 24px
     color: #2f70b4
     line-height: 32px
+    // +media_max(1365px)
+    //     line-height: 30px
+    // +media_max(1024px)
+    // line-height: 28px
+    // +media_max(768px)
+    // font-size: 16px
+    // line-height: 16px
+
     // margin-left: 150px
 .family-title
-    margin-left: 60px
+    margin-left: 55px
+    margin-top: 60px
+    // +media_max(1365px)
+    //     margin-left: 50px
+    //     margin-top: 30px
+        // margin-top: -5px

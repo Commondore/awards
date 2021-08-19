@@ -1,34 +1,32 @@
 
 import './_Managment.sass';
-import man from './man.png'
-import person from './person.png'
-import Secnav from '../secnav/Secnav';
-import Banner from './../../assets/img/Banner.png'
+import man from './man.png';
+import person from './person.png';
+import tala from './tala.png';
+import Banner from './../../assets/img/Banner.png';
+import ulan from './ulan.png';
+import ege from './ege.png';
+import john from './john.png';
+import natali from './natali.png';
+import gold from './gold.png';
+
 
 import React from 'react'
+import Secnav from '../secnav/Secnav';
+
 
 function Managment() {
     return (
-        <div className="wrapper">
-            <div className="managment">
-                <div className="container">
-                    <div className="img-box">
-                        <img src={Banner} alt="" className="header-banner" />
+        // <div className="wrapper">
 
-                    </div>
-                    <div className="banner-content">
-                        <h1 className="banner__title">О предприятии</h1>
-                        <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
-                            "Кыргыздортранспроект" при министерстве транспорта и дорог Кыргызской Республики
-                            является органом, ведающим вопросами науки и проектирования, разработки и внедрения
-                            в производство проектов автомобильных дорог и сооружений, которые обеспечивают 
-                            потребности развития экономики и населения Кыргызской Республики в услугах, определяемых
-                            настоящим Уставом и законодательством Кыргызской Республики.
-                        </p>
-                    </div>
-                <Secnav/>
-                    <h2 className="manag-title">Руководство</h2>
-                    <div className="card__group">
+       
+        //     <div className="managment">
+
+                <div className="container">
+                    <Secnav/>
+                     <h2 className="manag-title">Руководство</h2>
+                     <div className="card__group">
+
                         <div className="card__item">
                             <div className="img-card">
                                 <img src={man} alt="" className="person-img" />
@@ -37,18 +35,18 @@ function Managment() {
                             <div className="family-title">
                                 <p className="name-title">Нурманбетов Кадырбек Ракымбекович</p>
                                 <hr className="line-decor"/>
-                                <p className="post-title">Директор ПИИ "Кыргыздортранспроект"</p>
+                                <p className="post-title">Генеральный директор</p>
                             </div>
                         </div>
                         <div className="card__item">
                             <div className="img-card">
-                                <img src={man} alt="" className="person-img" />
+                                <img src={tala} alt="" className="person-img" />
 
                             </div>
                             <div className="family-title">
                                 <p className="name-title">Ашымбеков Талайбек Нурланович</p>
                                 <hr className="line-decor"/>
-                                <p className="post-title">Заместитель Генерального Директора ПИИ "Кыргыздортранспроект"</p>
+                                <p className="post-title">Заместитель Генерального Директора</p>
                             </div>
                         </div>
                         <div className="card__item">
@@ -59,64 +57,76 @@ function Managment() {
                             <div className="family-title">
                                 <p className="name-title">Ормонов Кубанычбек Калыевич</p>
                                 <hr className="line-decor"/>
-                                <p className="post-title">Заместитель Генерального Директора ПИИ "Кыргыздортранспроект"</p>
+                                <p className="post-title">Заместитель Генерального Директора"</p>
                             </div>
                         </div>
                         <h2 className="manag-title">Начальники отделов</h2>
-                        <div className="card__group">
+                        {/* <div className="card__group"> */}
                         <div className="card__item">
                             <div className="img-card">
-                                <img src={man} alt="" className="person-img" />
+                                <img src={ulan} alt="" className="person-img" />
 
                             </div>
                             <div className="family-title">
                                 <p className="name-title">Исаев Уланбек Жусупалиевич</p>
                                 <hr className="line-decor"/>
-                                <p className="post-title">Начальник Дорожного Отдела Управления проектами</p>
+                                <p className="post-title">Начальник Дорожного Отдела Управления по Проектированию</p>
                             </div>
                         </div>
                         <div className="card__item">
                             <div className="img-card">
-                                <img src={person} alt="" className="person-img" />
+                                <img src={ege} alt="" className="person-img" />
                             </div>
                             <div className="family-title">
                                 <p className="name-title">Кабулова Жанылбубу Адыгинеевна</p>
                                 <hr className="line-decor"/>
-                                <p className="post-title">Начальник Отдела Инженерных Изысканий Управления проектами </p>
+                                <p className="post-title">Начальник Отдела Инженерных Изысканий Управления по Проектированию </p>
                             </div>
                         </div>
 
                         <div className="card__item">
                             <div className="img-card">
-                                <img src={man} alt="" className="person-img" />
+                                <img src={john} alt="" className="person-img" />
 
                             </div>
                             <div className="family-title">
                             <p className="name-title">Мельник Евгений Владимирович</p>
                                 <hr className="line-decor"/>
                                 <p className="post-title">Начальник Отдела Искусственных Сооружений и Инженерных 
-                                расчетов Управления проектами
+                                расчетов Управления по Проектированию
                                 </p>
                             </div>
                         </div>
                         <div className="card__item">
                             <div className="img-card">
-                                <img src={person} alt="" className="person-img" />
+                                <img src={natali} alt="" className="person-img" />
                             </div>
                             <div className="family-title">
                                 <p className="name-title">Рокина Наталья Алексеевна</p>
                                 <hr className="line-decor"/>
-                                <p className="post-title">Начальник Отдела Смет Управления проектами</p>
+                                <p className="post-title">Начальник Отдела Смет Управления по Проектированию</p>
+                            </div>
+       
+                        </div>
+                        <div className="card__item">
+                            <div className="img-card">
+                                <img src={gold} alt="" className="person-img" />
+                            </div>
+                            <div className="family-title">
+                                <p className="name-title">Карагулов Алтынбек Адылбекович</p>
+                                <hr className="line-decor"/>
+                                <p className="post-title">Начальник Управления по Проектированию</p>
                             </div>
        
                         </div>
 
-                        </div>
+                        {/* </div> */}
                     </div>
                 </div>
-            </div>
+        //     </div>
 
-        </div>
+        // </div>
+       
     )
 }
 

@@ -1,7 +1,5 @@
 
 import './_Effort.sass';
-
-import Banner from './../../assets/img/Banner.png';
 import robot from './robot.png';
 import React from 'react'
 import Submenu from '../submenu/Submenu';
@@ -12,20 +10,7 @@ function Effort() {
             <div className="effort">
 
                 <div className="container">
-                    <div className="img-box">
-                     <img src={Banner} alt="" className="header-banner" />
 
-                    </div>
-                            <div className="banner-content">
-                                <h1 className="banner__title">О предприятии</h1>
-                                <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
-                                    "Кыргыздортранспроект" при министерстве транспорта и дорог Кыргызской Республики
-                                    является органом, ведающим вопросами науки и проектирования, разработки и внедрения
-                                    в производство проектов автомобильных дорог и сооружений, которые обеспечивают 
-                                    потребности развития экономики и населения Кыргызской Республики в услугах, определяемых
-                                    настоящим Уставом и законодательством Кыргызской Республики.
-                                </p>
-                            </div>
                         <Submenu className="submenu-effort"/>
                         <h2 className="effort-title">Изыскание и проектирование</h2>
                     </div>

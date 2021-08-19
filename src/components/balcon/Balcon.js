@@ -7,7 +7,7 @@ function Balcon() {
     return (
         <div className="wrapper">
             <div className="container">
-                dania
+                <h1 className="balcon-title">Welcome</h1>
             </div>
         </div>
     )

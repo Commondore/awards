@@ -32,6 +32,12 @@ function App() {
   return (
     <Layout>
       <Switch>
+        <Route path="/job" component={Job}/>
+        <Route path="/license" component={License}/>
+        <Route path="/award" component={Award}/>
+        <Route path="/history" component={History}/>
+        <Route path="/ceiling" component={Ceiling}/>
+        <Route path="/managment" component={Managment}/>
         <Route path="/plane" component={Plane}/>
         <Route path="/mobil" component={Mobil}/>
         <Route path="/contact" component={Contact}/>
@@ -45,14 +51,8 @@ function App() {
         <Route path="/service" component={Service}/>
         <Route path="/control" component={Control}/>
         <Route path="/effort" component={Effort}/>
-        <Route path="/ceiling" component={Ceiling}/>
-        <Route path="/balcon" component={Balcon}/>
-        <Route path="/job" component={Job}/>
-        <Route path="/history" component={History}/>
-        <Route path="/license" component={License}/>
-        <Route path="/award" component={Award}/>
-        <Route path="/managment" component={Managment}/>
-        <Route exact path="/" component={Banner}/>
+        {/* <Route exact path="/" component={Banner}/> */}
+    
       </Switch>
     </Layout>
   );

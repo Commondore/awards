@@ -16,11 +16,12 @@ import Basement from './basement/Basement';
 function Footer() {
     return (
         <>
-            {/* <div className="wrapper"> */}
+            <div className="wrapper">
 
                 <div className="footer">
                     <div className="container">
-                        {/* <div className="footer-menu"> */}
+                        <div className="footer-menu">
+
                             <div className="footer-group">
 
 
@@ -50,7 +51,7 @@ function Footer() {
                                     </div>
                                 </div>
 
-                                <div className="footer-grid__item">
+                                <div className="footer-grid__item footer-grid__item-social">
                                     <h3 className="social-title">Социальные сети</h3>
                                     <div className="social__group">
                                         <img src={facebook} className="social-img"></img>
@@ -59,7 +60,7 @@ function Footer() {
                                     </div>
                                 </div>
 
-                                    <div className="footer-grid__item">
+                                    <div className="footer-grid__item footer-grid__item-call">
                                         <h3 className="social-title social-right">Режим работы</h3>
                                         <div className="working">
                                         <img src={calendar} className="call-img"></img>
@@ -69,18 +70,23 @@ function Footer() {
                                     </div>
                                 
                         
-                            <div className="footer-grid__item">
+                            <div className="footer-grid__item footer-grid__item-right">
 
                                 <div className="foot-decor">
-                                    <a href="#" className="footer-text--decor">Министерство Транспорта и Коммуникаций
+                                    {/* <a href="#" className="footer-text--decor__call">МТиК
+                                    
+                                    </a> */}
+                                    <a href="#" className="footer-text--decor">
+                                    Министерство Транспорта и Коммуникаций
                                     Кыргызской Республики
                                     </a>
                                     <img src={foreign} alt="" className="social-decor" />
                                 </div>
                             </div>
-
+                        </div>
                         </div>
                     </div>
+                </div>
                 </div>
             <Basement/>
         </>

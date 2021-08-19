@@ -5,7 +5,8 @@ import moon from './../../assets/img/moon.png';
 import bars from './bars.png';
 import Logo from './logo/Logo';
 import Navigation from './navigation/Navigation';
-// import Banner from '../banner/Banner';
+import Banner from '../banner/Banner';
+import Secnav from '../secnav/Secnav';
 
 
 
@@ -17,6 +18,7 @@ function Header() {
             <div className="header">
                 <div className="header-news">
                     <div className="container">
+                       
                         <div className="header-box">
                             <div className="header-news--left">
                                 <img src={bars} alt="" className="header-clock" />
@@ -39,11 +41,11 @@ function Header() {
                     </div>
                 </div>
                 <Logo/>
-                {/* <Banner/> */}
+                <Navigation/>
+                <Banner/>
             </div>
 
         </div>
-            <Navigation/>
       
         </>
     )

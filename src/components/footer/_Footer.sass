@@ -5,28 +5,53 @@
     background: #357ECB
     margin-top: 80px
 
+.footer-text
+    // text-align: center
+.footer-menu
+    padding: 40px 100px
+    // +media_max(1509px)
+    // padding: 40px 80px
+
 .footer-group
+    // display: flex
+    // justify-content: space-between
     display: grid
-    grid-template-columns: 480px 1fr 1fr 390px
-    align-items: center
-
-
-.hours
-    margin-left: 60px
-    font-family: 'Roboto Condensed'
-    font-weight: 400
-    font-size: 18px
-    color: #FFFFFF
+    grid-template-columns:  460px 280px 255px 400px
+    +media_max(1489px)
+    // grid-template-columns: 460px 1fr 1fr
+.footer-grid__item-social
+    padding: 80px 50px 0px 35px
+    max-width: 100%
+    margin: 0 auto
+    // +media_max(1509px)
+    // padding: 80px 25px 0px 35px
+.footer-grid__item-call
+    padding: 80px 10px 0px 20px
+    
+    max-width: 100%
+    margin: 0 auto
+    // +media_max(1509px)
+    // padding: 80px 10px 0px 15px
+.footer-grid__item-right
+    padding: 95px 0px 0px 69px
+    max-width: 100%
+    margin: 0 auto
+.footer-box
+    // +media(411px)
+    // margin-bottom: 24px
+    // padding: 40px 0px 20px
+       
 
 .footer-text
     font-family: 'Roboto Condensed'
     font-weight: 700
     font-size: 20px
     color: #FFFFFF
-    line-height: 23px
+    line-height: 28px
 .foot-adress-flag
 
 .adress
+    // +media(411px)
     font-family: 'Roboto Condensed'
     font-weight: 400
     font-size: 18px
@@ -34,13 +59,25 @@
     text-decoration: none
     margin-left: 7px
     line-height: 21px
+.hours
+    // +media(411px)
+    font-family: 'Roboto Condensed'
+    font-weight: 400
+    font-size: 18px
+    color: #FFFFFF
+    line-height: 21px
+    margin-left: 45px
 .foot-adress
     display: flex
     align-items: center
 
     margin-bottom: 20px
 
-.social-img
+.call-img
+    // +media(411px)
+    width: 24px
+    height: 24px
+
 
 .social-title
     font-family: 'Roboto Condensed'
@@ -48,31 +85,38 @@
     font-size: 18px
     color: #FFFFFF
     line-height: 21px
-    margin-left: 10px
+    // text-align: center
+    // margin-left: 10px
+    // margin-top: 0
 
 .social__group
     display: flex
-    // justify-content: space-around
+.social-decor
+    margin-left: 7px
 .working
     display: flex
+    align-items: center
 
 .social-right
-    padding: 12px 0px 0px
+    // padding: 12px 0px 0px
 .social-img
     width: 37px
+    height: 37px
     margin-left: 20px
 .social-img:first-child
     margin-left: 0
 
 
 .footer-text--decor
-        font-family: 'Roboto Condensed'
-        font-weight: 700
-        font-size: 20px
-        color: #FFFFFF
-        text-decoration: none
-.social-decor
-    margin-left: 5px
-  
+    font-family: 'Roboto Condensed'
+    font-weight: 700
+    font-size: 18px
+    color: #FFFFFF
+    text-decoration: none
+    line-height: 23px
+
 .footer-grid__item
-    padding: 0px 7px 0px 10px
+    +media_max(768px)
+        // margin-bottom: 15px
+       
+

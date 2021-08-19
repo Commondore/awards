@@ -13,6 +13,7 @@ function Navigation() {
       
         <div className="nav">
             <div className="container">
+           
                 <div className="header__nav">
                     <div className="nav__item">
                         <NavLink to="/" exact className="nav__link">Главная <img src={down} alt="" className="nav_down" /></NavLink>
@@ -78,7 +79,6 @@ function Navigation() {
                     </form>
                 </div>
 
-             
         </div>
             </div>
         </div>

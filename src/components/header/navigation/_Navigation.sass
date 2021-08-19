@@ -2,17 +2,18 @@
 @import './../../mixins/_Mixins';
 .nav 
     background: #357ECB
+    margin-top: 80px
+    +media_max(1023px)
+        display: none
 
 .header__nav
-    +media(411px)
-        display: none
-    +media(1024px)
         display: flex
         justify-content: space-between
         align-items: center
         list-style-type: none
-        padding: 0px 10px
-        margin: 0
+        margin-bottom: 50px
+        padding: 0px 85px
+
 
 .nav__item
     position: relative
@@ -95,8 +96,8 @@
     position: absolute
     top: 100%
     list-style: none
-    padding: 0
-    width: 160px
+    // padding: 0 
+    width: 133px
     height: 466px
     background: #FFFFFF
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25 )
@@ -104,7 +105,8 @@
     z-index: 100
 .nav__menu-left
     right: -20px
-    z-index: 100
+    z-index: 200
+    padding: 0px 
 .nav__menu-decor
 
 

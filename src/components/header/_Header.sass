@@ -4,13 +4,14 @@
     background: #357ECB
 
 .header-box
-    +media(411px)
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0px 85px 
+    +media_max(1023px)
         display: none
-    +media(1175px)
-        display: flex
-        align-items: center
-        justify-content: space-between
-        padding: 0px 20px 0px 
+    // +media_max(1920px)
+    //     display: block
 
 .header-news--left
     display: flex
