@@ -1,17 +1,19 @@
 
-import './_Contact.sass';
-import Mininav from '../mininav/Mininav';
+import './_Newcontact.sass'
+import Mininav from '../../mininav/Mininav';
 import React from 'react'
-import Map from './map.png';
+import map from './../../contact/map.png';
 
-function Contact() {
+
+function Newcontact() {
     return (
-        <div className="wrapper">
+        <>
+           <div className="wrapper">
             <div className="container">
                 
                 <Mininav className="contact-nav"/>
-                <div className="contact-info">
                 <h2 className="contact-title">Контакты</h2>
+                <div className="contact-info">
                     <p className="info-text"><span className="info-slogan">Адрес:</span> Кыргызская Республика,
                     г.Бишкек, ул.Саманчина 6
                     </p>
@@ -25,10 +27,9 @@ function Contact() {
                     </p>
                 </div>
                 <div className="map-banner">
-                    <img src={Map} alt="" className="contact-img" />
+                    <img src={map} alt="" className="contact-img" />
 
                 </div>
-                <div className="form-group">
                 <form action="" className="form-contact">
                 <h2 className="contact-title-decor">Свяжитесь с нами</h2>
                     <div className="form-box">
@@ -58,11 +59,10 @@ function Contact() {
 
                     </div> */}
                 </form>
-                </div>
             </div>
-        </div>
+        </div>  
+        </>
     )
 }
 
-export default Contact
-
+export default Newcontact

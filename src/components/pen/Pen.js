@@ -1,6 +1,5 @@
 
 import './_Pen.sass';
-import Rose from './../../assets/img/rose.png';
 import Mininav from '../mininav/Mininav';
 import React from 'react'
 import Navdecor from '../navdecor/Navdecor';

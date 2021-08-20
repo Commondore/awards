@@ -8,34 +8,43 @@
 .footer-text
     // text-align: center
 .footer-menu
-    padding: 40px 100px
-    // +media_max(1509px)
-    // padding: 40px 80px
+    padding: 40px 0px
+
 
 .footer-group
-    // display: flex
-    // justify-content: space-between
     display: grid
-    grid-template-columns:  460px 280px 255px 400px
-    +media_max(1489px)
-    // grid-template-columns: 460px 1fr 1fr
+    grid-template-columns:  460px 380px 360px 450px
+    +media_max(1620px)
+        grid-template-columns: 460px 1fr 1fr
+    +media_max(1365px)
+        grid-template-columns: 500px 1fr
+    +media_max(1024px)
+       flex-direction: column
+
 .footer-grid__item-social
     padding: 80px 50px 0px 35px
     max-width: 100%
     margin: 0 auto
-    // +media_max(1509px)
-    // padding: 80px 25px 0px 35px
+    +media_max(1365px)
+        padding: 80px 0px 0px
+        width: 400px
+    +media_max(1024px)
+        padding: 0px
 .footer-grid__item-call
     padding: 80px 10px 0px 20px
-    
     max-width: 100%
     margin: 0 auto
-    // +media_max(1509px)
-    // padding: 80px 10px 0px 15px
+    +media_max(1365px)
+        padding: 0px
+        width: 490px
+    
 .footer-grid__item-right
     padding: 95px 0px 0px 69px
     max-width: 100%
     margin: 0 auto
+    +media_max(1620px)
+        padding: 0
+        max-width: 460px
 .footer-box
     // +media(411px)
     // margin-bottom: 24px

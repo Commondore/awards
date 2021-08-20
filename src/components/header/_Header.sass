@@ -7,19 +7,12 @@
     display: flex
     align-items: center
     justify-content: space-between
-    padding: 0px 85px 
+    padding: 0px 
     +media_max(1023px)
         display: none
-    // +media_max(1920px)
-    //     display: block
 
 .header-news--left
-    display: flex
-
-
-  
-
-    
+    display: flex   
 .news-clock
     font-family: 'Roboto Condensed'
     font-weight: 400
@@ -49,7 +42,8 @@
 .news__link
     display: block
     padding: 7px 28px
-
+    +media_max(1080px)
+        padding: 7px 3px
 .header-news--right
     display: flex
 

@@ -1,6 +1,5 @@
 
 import './_Purchase.sass';
-import Rose from './../../assets/img/rose.png';
 import React from 'react';
 import arrow from './arrow.png';
 

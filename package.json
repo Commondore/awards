@@ -1,7 +1,7 @@
 {
   "name": "awards",
   "version": "0.1.0",
-  "homepage": "https://balu-marat.github.io/awards/",
+  "homepage": "https://balu-marat.github.io/Dortrans/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

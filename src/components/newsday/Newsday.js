@@ -1,6 +1,5 @@
 
 import './_Newsday.sass';
-import Rose from './../../assets/img/rose.png';
 import Mininav from '../mininav/Mininav';
 import React from 'react'
 import Sign from './sign.png';
@@ -12,17 +11,6 @@ function Newsday() {
     return (
         <div className="wrapper">
             <div className="container">
-                <img src={Rose} alt="" className="header-banner header-banner-news" />
-                <div className="banner-content">
-                    <h1 className="banner__title">О предприятии</h1>
-                    <p className="banner-text">Государственное предприятие Проектно-изыскательский институт
-                        "Кыргыздортранспроект" при министерстве транспорта и дорог Кыргызской Республики
-                        является органом, ведающим вопросами науки и проектирования, разработки и внедрения
-                        в производство проектов автомобильных дорог и сооружений, которые обеспечивают 
-                        потребности развития экономики и населения Кыргызской Республики в услугах, определяемых
-                        настоящим Уставом и законодательством Кыргызской Республики.
-                    </p>
-                </div>
                 <Mininav className="content-nav"/>
                 <h2 className="news-title">Новости дня</h2>
                 <div className="newsday img__group">

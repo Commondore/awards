@@ -7,8 +7,8 @@ import { Link} from 'react-router-dom'
 
 function Secnav() {
     return (
-        <div className="secnav">
-            <div className="container">
+        <div className="container">
+                <div className="secnav">
                 <ul className="secnav__menu">
                     <li className="secnav__item">
                         <Link to="/managment" className="secnav__link">Руководство</Link>

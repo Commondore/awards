@@ -19,16 +19,12 @@ function Logo() {
                 <div className="logo">
                     <img src={logo} alt="" className="header__logo"/>
                 </div>
-                     {/* <div className="header__title-box"> */}
-                        {/* <p className="title-small">
-                         Кыргыз Республикасынын Транспорт жана Жол Министрлигине Караштуу 
-                        "Кыргызжолтрансдолбоор" Долбоорлоо-Изилдөө Институту Мамлекеттик ишканасы
-                        
-                        </p> */}
-                        {/* <p className="header__title-kg">
+                     <div className="header__title-box">
+    
+                        <p className="header__title-kg">
                         Кыргыздортранспроект при Министерстве Транспорта и коммуникаций Кыргызской Республики 
-                        </p> */}
-                    {/* </div> */}
+                        </p>
+                    </div>
 
                     <div className="title-box-kg">
                         <p className="header__title-kg title-top">Кыргыз Республикасынын Транспорт жана Жол Министрлигине Караштуу 
@@ -41,22 +37,21 @@ function Logo() {
                         "Kyrgyzdortransproject" under the Ministry of Transport and Communications of the Kyrgyz Republic
                         </p>
                     </div>
-
-               
-
+                 </div>
                     <div className="burger__menu" onClick={menuToggle}>
                         <Hamburger 
-                    
                         color="#357ECB" 
-                        width="44px"  className="header-burger"/>
+                         className="header-burger"/>
                     </div> 
                     {
                         open ? <Mobil/> : null
                     }
-                 </div>
         </div>
     )
 }
+
+               
+
 
 
 

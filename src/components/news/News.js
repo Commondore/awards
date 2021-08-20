@@ -1,6 +1,5 @@
 
 import './_News.sass';
-import Rose from './../../assets/img/rose.png';
 import Mininav from '../mininav/Mininav';
 import React from 'react';
 import Road from './road.png';

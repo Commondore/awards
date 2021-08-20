@@ -69,36 +69,36 @@ function History() {
                     <img src={his7} alt="" className="his-banner" />
                 </div>
                 <div className="img-list__box">
-                    <div className="img-his__item">
-                        <img src={his1} alt="" className="img__his img__his-left " />
+                    <div className="img-his">
+                        <img src={his1} alt="" className="img__decor" />
                     </div>
-                    <div className="img-his__item">
-                        <img src={his2} alt="" className="img__his img__his-right" />
-                    </div>
-                </div>
-                <div className="img-list__box">
-                    <div className="img-his__item">
-                        <img src={his3} alt="" className="img__his img__his-left " />
-                    </div>
-                    <div className="img-his__item">
-                        <img src={hist4} alt="" className="img__his img__his-right" />
+                    <div className="img-his">
+                        <img src={his2} alt="" className="img__decor" />
                     </div>
                 </div>
                 <div className="img-list__box">
-                    <div className="img-his__item">
-                        <img src={his5} alt="" className="img__his img__his-left " />
+                    <div className="img-his">
+                        <img src={his3} alt="" className="img__decor " />
                     </div>
-                    <div className="img-his__item">
-                        <img src={his6} alt="" className="img__his img__his-right" />
+                    <div className="img-his  ">
+                        <img src={hist4} alt="" className="img__decor" />
+                    </div>
+                </div>
+                <div className="img-list__box">
+                    <div className="img-his">
+                        <img src={his5} alt="" className=" img__decor " />
+                    </div>
+                    <div className="img-his">
+                        <img src={his6} alt="" className=" img__decor" />
                     </div>
                 </div>
 
                 <div className="img-list__box">
-                    <div className="img-his__item">
-                        <img src={his8} alt="" className="img__his img__his-left " />
+                    <div className="img-his">
+                        <img src={his8} alt="" className=" img__decor " />
                     </div>
-                    <div className="img-his__item">
-                        <img src={his9} alt="" className="img__his img__his-right" />
+                    <div className="img-his">
+                        <img src={his9} alt="" className=" img__decor" />
                     </div>
                 </div>
             </div>
