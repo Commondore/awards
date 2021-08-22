@@ -47,13 +47,16 @@
     color: #357ECB
     display: none
     margin-left: 19px
-    width: 300px
+    max-width: 310px
     margin: auto
     +media_max(1023px)
         display: block
-        width: 100%
-        margin: 0 auto
-        text-align: center
+        // max-width: 712px
+        // margin: 0 auto
+        // text-align: center
+        +media_max(823px)
+            // width: 822px
+            // height: auto
 
 .burger__menu
     display: none

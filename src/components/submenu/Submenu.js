@@ -6,6 +6,7 @@ import React from 'react'
 
 function Submenu() {
     return (
+
         <div className="submenu">
             <div className="subnav__menu">
                 <Link to ="/effort" className="subnav__link subnav__link-decor ">Изыскание и проектирование</Link>

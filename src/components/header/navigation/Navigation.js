@@ -16,8 +16,8 @@ function Navigation() {
            
                 <div className="header__nav">
                     <div className="nav__item">
-                        <NavLink to="/" exact className="nav__link">Главная <img src={down} alt="" className="nav_down" /></NavLink>
-                        <ul className="nav__menu nav__menu-left">
+                        <NavLink exact to="/" className="nav__link">Главная <img src={down} alt="" className="nav_down" /></NavLink>
+                            <ul className="nav__menu nav__menu-left">
                             <li className="item">
                                 <Link to="/managment" className="link">Руководство </Link>
                             </li>

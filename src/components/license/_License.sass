@@ -1,4 +1,4 @@
-
+@import './../mixins/_Mixins'
 .license-title
     font-weight: 700
     font-size: 48px
@@ -11,3 +11,22 @@
     grid-template-columns: 1fr 1fr 1fr
     margin-top: 70px
     margin-bottom: 70px
+    +media_max(1480px)
+        grid-template-columns: 1fr 1fr
+        padding: 0px 100px
+        width: 100%
+        text-align: center
+        +media_max(1153px)
+            grid-template-columns: 1fr
+            padding: 0px 15px
+            // +media_max(550px)
+            //         </div>
+            //         </div>
+.license-img
+    width: 462px
+    height: 639px
+    +media_max(550px)
+        width: 390px
+        height: 539px
+
+    

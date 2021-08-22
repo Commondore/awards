@@ -25,6 +25,7 @@ import Contact from './components/contact/Contact';
 import Mobil from './containers/mobil/Mobil';
 import Plane from './components/plane/Plane';
 import Newcontact from './components/contact/newcontact/Newcontact';
+import Submenu from './components/submenu/Submenu';
 
 
 
@@ -32,6 +33,7 @@ function App() {
   return (
     <Layout>
       <Switch>
+        <Route path="/submenu" component={Submenu}/>
         <Route path="/newcontact" component={Newcontact}/>
         <Route path="/job" component={Job}/>
         <Route path="/license" component={License}/>
@@ -52,7 +54,7 @@ function App() {
         <Route path="/service" component={Service}/>
         <Route path="/control" component={Control}/>
         <Route path="/effort" component={Effort}/>
-    
+        <Route  exact path="/" component={Banner}/>
       </Switch>
     </Layout>
   );

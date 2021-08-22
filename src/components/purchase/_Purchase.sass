@@ -1,15 +1,15 @@
 @import './../mixins/_Mixins';
 
 
-// .banner-title-purchase
-//     width: 100%
-//     margin: auto
+
 .purchase-title
     font-weight: 700
     font-size: 48px
     color: #282828
     line-height: 65px
     text-align: center
+    +media_max(768px)
+        font-size: 24px
 .purchase-slogan
     margin-left: 40px
     font-weight: 700
@@ -17,6 +17,10 @@
     color: #282828
     line-height: 32px
     margin-top: 70px
+    +media_max(768px)
+        font-size: 16px
+        line-height: 19px
+        margin-top: 30px
 .purchase-container
     display: grid
     grid-template-columns: 1fr 1fr
@@ -36,10 +40,28 @@
     font-size: 18px
     color: #282828
     line-height: 24px
+    +media_max(768px)
+        font-size: 14px
+        line-height: 16px
+        padding: 12px 16px
 .purchase-box
     display: flex
-    // align-items: center
     margin-bottom: 120px
+    +media_max(1150px)
+        flex-wrap: wrap
+        justify-content: center
+        width: 100%
+        padding: 0px 20px
+        margin-bottom: 60px
+        .purchase-left
+            margin-bottom: 50px
+            width: 100%
+            min-height: auto
+        .purchase-right
+            width: 100%
+            min-height: auto
+            margin-left: 0px
+
    
 
 .slogan-decor
@@ -57,44 +79,46 @@
     line-height: 24px
 .purchase-right
     margin-left: 30px
-    // background: #B3CFEB
-    // max-width: 100&
+    justify-content: center
+    align-items: center
 .purchase-left
-    // background: #B3CFEB
-    // max-width: 100%
-// .purchase-left
-//     width: 790px
-    // background: #F4F8FC
+    justify-content: center
+    align-items: center
 
 .slogan-left
     padding: 15px 26px
     width: 100%
     margin: auto
-    // height: 30px
     text-align: center
     display: inline-block
-    // padding: 12px 327px
     font-weight: 600
     font-size: 18px
     color: #282828
     line-height: 24px
     background: #B3CFEB
     line-height: 24px
+    +media_max(767px)
+        font-size: 16px
 .left-group
-    // width: 790px
     background: #F4F8FC
+    // height: 342px
 .left-slogan
+    font-weight: 600
+    font-size: 18px
+    line-height: 24px
     display: inline-block
     padding: 15px 13px  20px
     margin-bottom: 5px
     margin-left: 15px
+    +media_max(767px)
+        font-size: 14px
+        line-height: 16px
 .right-group
     background: #F4F8FC
     
 .slogan-right
     padding: 15px 26px
     display: inline-block
-    // padding: 12px 349px
     font-size: 18px
     color: #282828
     line-height: 24px
@@ -102,15 +126,19 @@
     font-weight: 600
     width: 100%
     margin: auto
-    // height: 30px
     text-align: center
+    +media_max(767px)
+        font-size: 16px
 .right-slogan
+    font-weight: 600
+    font-size: 18px
     display: inline-block
     padding: 15px 13px  20px
     margin-bottom: 0px
     margin-left: 15px
-    // padding: 15px 20px 30px 
-    // margin-bottom: 10px
+    +media_max(767px)
+        font-size: 14px
+        line-height: 16px
 
 .copy
     position: absolute
@@ -124,12 +152,3 @@
     color: #357ECB
 .arrow-img
     margin-left: 10px
-
-// .banner-title-purchase
-//     +media(1024px)
-//         top: 80px
-// .banner-text-purchase
-//     +media(768px)
-//         top: 200px
-//     +media(1024px)
-//         top: 180px

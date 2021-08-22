@@ -37,19 +37,8 @@ function Award() {
                         </div>
 
                          <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
+                            <img src={pen} alt="" className="award-imgp" />
                         </div>
-
-
-                        {/* <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>
-                        <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>
-                        <div className="award-item">
-                            <img src={pen} alt="" className="award-img" />
-                        </div>  */}
                     </div>
                 </div>
             </div>

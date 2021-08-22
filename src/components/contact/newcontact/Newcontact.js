@@ -3,12 +3,17 @@ import './_Newcontact.sass'
 import Mininav from '../../mininav/Mininav';
 import React from 'react'
 import map from './../../contact/map.png';
-
+import Header from '../../header/Header';
 
 function Newcontact() {
     return (
         <>
+        555
            <div className="wrapper">
+            <Header/>
+            <div className="newcontact">
+
+           
             <div className="container">
                 
                 <Mininav className="contact-nav"/>
@@ -30,37 +35,75 @@ function Newcontact() {
                     <img src={map} alt="" className="contact-img" />
 
                 </div>
-                <form action="" className="form-contact">
+                <div className="form-group">
+                    <form action="" className="form-contact">
+                        <h2 className="contact-title-decor">Свяжитесь с нами</h2>
+                        <div className="input-boxb">
+
+                            <div className="input-boxs">
+                                <label htmlFor="fname" className="input-title">Имя</label>
+                                <div className="input">
+                                    <input type="text" className="finput" id="fname" placeholder="Введите ваше имя" />
+                                </div>
+                            </div>
+
+                            <div className="input-boxs">
+                                <label htmlFor="sname" className="input-title">Почта</label>
+                                <div className="input">
+                                    <input type="text" className="finput" id="sname" placeholder="Введите электронный адрес" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="input-box">
+                            <label htmlFor="tname" className="input-title">Тема сообщения </label>
+                            <div className="input">
+                                <input type="text" className="finput" id="tname" placeholder="Введите тему " />
+                            </div>
+                        </div>
+
+                        <div className="input-box">
+                            <label htmlFor="aname" className="input-title">Сообщение</label>
+                            <div className="input-area">
+                                <textarea type="text" className="ainput" id="aname" placeholder="Введите текст" />
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                {/* <form action="" className="form-contact">
                 <h2 className="contact-title-decor">Свяжитесь с нами</h2>
                     <div className="form-box">
                         <div className="form-left">
                             <p className="form-slogan">Имя:</p>
                             <input type="text" name="" className="form-input" placeholder="Введите ваше имя"/>
-                        </div>
-                        <div className="form-right">
+                        </div> */}
+
+                        {/* <div className="form-right">
                             <p className="form-slogan">Почта:</p>
-                            <input type="email" name="" className="form-input" placeholder="Электронный адрес "/>
+                            <input type="email" name="" className="form-input" placeholder="Электронный адрес " width="100%"/>
                         </div>
                     </div>
                     <div className="input-slogan">
                          <p className="form-slogan">Тема сообщения:</p>
-                        <input type="text" className="form-input-decor" name="" placeholder="Тема сообщения"/>
-                    </div>
+                        <input type="text" className="form-input-decor" name="" placeholder="Тема сообщения" width="100%"/>
+                    </div> */}
 
 
-                    <div className="input-slogan">
+                    {/* <div className="input-slogan">
                     <p className="form-slogan">Сообщение:</p>
                     <textarea type="text" name="" id="" 
                      className="form-message" placeholder="Введите текст"></textarea>
 
-                    </div>
-                    {/* <div className="btn">
+                    </div> */}
+             {/* <div className="btn">
                         <div className="form-btn">ОТПРАВИТЬ</div>
 
-                    </div> */}
-                </form>
+                  </div> 
+                 </form> */}
             </div>
-        </div>  
+           </div>
+    </div> 
         </>
     )
 }

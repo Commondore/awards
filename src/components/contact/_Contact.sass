@@ -7,41 +7,73 @@
     max-width: 100%
     height: 100%
     position: relative
-.contact-title
+.contact-title-decor
     font-weight: 700
     font-size: 48px
     color: #282828
-    text-align: center
     margin-bottom: 60px
     +media_max(1365px)
         font-size: 38px
+        margin-bottom: 30px
+    +media_max(939px)
+        font-size: 32px
+    +media_max(767px)
+        font-size: 24px
 .contact-info
-    width: 100%
-    height: 565px
-    margin: auto
-    text-align: center
-.info-slogan
+    padding: 0px 30px
+    +media_max(1365px)
+        padding: 0px 10px
+.info-text
+    +media_max(1365px)
+        margin-bottom: 0px
+.select
     font-weight: 700
     font-size: 36px
     color: #282828
     line-height: 49px
-.info-text
+    +media_max(1365px)
+        font-size: 30px
+    +media_max(905px)
+        font-size: 26px
+    +media-max(840px)
+        font-size: 18px
+
+.itext
     font-weight: 600
     font-size: 36px
     color: #282828
     line-height: 49px
+    margin-left: 8px
     +media_max(1365px)
         font-size: 28px
+        line-height: 29px
+        margin-bottom: 0px
+    +media_max(1023px)
+        font-size: 24px
+        line-height: 16px
+    +media_max(875px)
+        font-size: 16px
+        margin-top: 0px
+
 .contact-img
     margin-bottom: 80px
+    margin-top: 50px
+    
 .contact-title-decor
     font-weight: 700
     font-size: 48px
     color: #282828
     margin-bottom: 0
     text-align: center
-.form-box
-    display: flex
+    margin-bottom: 80px
+    +media_max(1365px)
+        font-size: 38px
+    +media_max(939px)
+        font-size: 32px
+    +media_max(767px)
+        font-size: 24px
+        margin-bottom: 20px
+
 .form-slogan
     font-weight: 700
     font-size: 22px
@@ -49,30 +81,89 @@
     line-height: 30px
     margin-top: 70px
 .form-input
+    max-width: 100%
+    margin: auto
     font-weight: 400
     font-size: 18px
     color: #A0A0A0
     padding: 12px 185px 11px 20px
     border: 2px solid #357ECB
     border-radius: 4px
-.form-right
-    margin-left: 110px
-    margin-right: auto
-.form-left
-    margin-left: auto
-.input-slogan
-    width: 100%
-    margin: auto
-    text-align: center
+
+
 .form-group
-    padding: 40px 190px 50px
-    margin-top: 50px
+    padding: 0px 100px
+    margin-top: 80px
+    +media_max(1365px)
+        padding: 0px 80px
+    +media_max(939px)
+        padding: 0px 40px
+        margin-bottom: 60px
+    +media_max(767px)
+        padding: 0px 30px
+        margin-top: 40px
 .form-contact
-    max-width: 100%
-    margin: 0 auto
-    border: 3px solid #357ECB
+    border: 4px solid #357ECB
+    padding: 50px 300px
+    +media_max(1365px)
+        padding: 0px 150px
+    +media_max(939px)
+        padding: 0px 80px
+    +media_max(767px)
+        padding: 0px 20px
+
+.input .ainput
+    width: 100%
+    padding: 12px
+    border: 1px solid #ccc
+    border-radius: 4px
+    resize: vertical
+   
+.input-title
+    font-weight: 700
+    font-size: 22px
+    color: #282828
+    line-height: 30px
+    +media_max(767px)
+        font-size: 16px
+.finput
+    min-width: 100%
+    height: 48px
+    // padding: 0 40px 0 12px
+    background-color: #fff
+    border-radius: 4px
+    border: 2px solid #357ECB
+    font-size: 12px
+    line-height: 20px
+    color: #7F7F7F
+    margin-top: 15px
+.ainput
+    min-width: 100%
+    height: 265px
+    // padding: 15px 40px 150px 12px
+    background-color: #fff
+    border-radius: 4px
+    border: 2px solid #357ECB
+    font-weight: normal
+    font-size: 12px
+    line-height: 20px
+    color: #7F7F7F
+    margin-top: 15px
+    +media_max(767px)
+        height: 120px
+.input-box
+    margin-bottom: 100px
+    +media_max(1365px)
+        margin-bottom: 60px
+    +media_max(939px)
+        margin-bottom: 40px
+    +media_max(768px)
+        margin-bottom: 10px
+
 
 .form-input-decor
+    // max-width: 100%
+    // margin: auto
     font-weight: 400
     font-size: 18px
     color: #A0A0A0
@@ -80,12 +171,14 @@
     border: 2px solid #357ECB
     border-radius: 4px
 .form-message
+    // max-width: 100%
+    // margin: auto
     border: 2px solid #357ECB
     border-radius: 4px 
     font-size: 18px
     color: #A0A0A0
     font-weight: 400
-    padding: 20px 650px 80px 20px
+    padding: 20px 640px 80px 20px
     margin-bottom: 80px
 .btn
     text-align: center

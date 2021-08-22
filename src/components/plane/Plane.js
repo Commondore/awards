@@ -23,51 +23,43 @@ function Plane() {
             <div className="container">
         
                     <h2 className="plane-title">Партнеры</h2>
-                    <div className="plane-group">
-                        <div className="plane-item__box">
-                            <div className="plane-item">
+                    <div className="plane-groupf">
+                            <div className="plane-itemd">
                                 <img src={dog} alt="" className="plane-img" />
                             </div>
-                            <div className="plane-item">
+                            <div className="plane-items">
                                 <img src={spectr} alt="" className="plane-img" />
                             </div>
-                        </div>
-                        <div className="plane-item__box">
-                            <div className="plane-item">
+                            <div className="plane-itemu">
                                 <img src={uneed} alt="" className="plane-img" />
                             </div>
-                            <div className="plane-item">
+                            <div className="plane-itema">
                                 <img src={asian} alt="" className="plane-img" />
                             </div>
-                        </div>
-                        <div className="plane-item__box">
-                            <div className="plane-item">
+                            <div className="plane-itemr">
                                 <img src={Road} alt="" className="plane-img" />
                             </div>
-                            <div className="plane-item">
-                                <img src={project} alt="" className="plane-img" />
+                            <div className="plane-itemp">
+                                <img src={project} alt="" className="plane-imgj" />
                             </div>
-                        </div>
-                        <div className="plane-item__box">
                             <div className="plane-item">
                                 <img src={atom} alt="" className="plane-img" />
                             </div>
                             <div className="plane-item">
-                                <img src={phone} alt="" className="plane-img" />
+                                <img src={phone} alt="" className="plane-imgp" />
+                            </div>
+                            <div className="plane-item">
+                                <img src={central} alt="" className="plane-imgc" />
                             </div>
                         </div>
-                        <div className="plane-item__box">
+
+                        <div className="plane-grouph">
                             <div className="plane-item">
-                                <img src={central} alt="" className="plane-img" />
+                                <img src={long} alt="" className="plane-img" />
                             </div>
                             <div className="plane-item">
                                 <img src={credo} alt="" className="plane-img" />
                             </div>
-                            <div className="plane-item">
-                                <img src={long} alt="" className="plane-img" />
-                            </div>
-                        </div>
-                        <div className="plane-item__box">
                             <div className="plane-item">
                                 <img src={tech} alt="" className="plane-img" />
                             </div>
@@ -79,7 +71,7 @@ function Plane() {
                             </div>
                         </div>
 
-                    </div>
+                   
             </div>
         </div>
     )

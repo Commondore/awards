@@ -3,6 +3,7 @@ import './_Effort.sass';
 import robot from './robot.png';
 import React from 'react'
 import Submenu from '../submenu/Submenu';
+import Mininav from '../mininav/Mininav';
 
 function Effort() {
     return (
@@ -12,6 +13,7 @@ function Effort() {
                 <div className="container">
 
                         <Submenu className="submenu-effort"/>
+                        <Mininav/>
                         <h2 className="effort-title">Изыскание и проектирование</h2>
                     </div>
                     <div className="img-robot">

@@ -1,7 +1,6 @@
 
 import React from 'react'
 import './_Header.sass';
-import moon from './../../assets/img/moon.png';
 import bars from './bars.png';
 import Logo from './logo/Logo';
 import Navigation from './navigation/Navigation';
@@ -35,7 +34,7 @@ function Header() {
                                 <a href="#" className="news-kg"> Рус</a>
                                 <span className="news-kg--decor">/</span>
                                 <a href="#" className="news-kg">Eng</a>
-                                <img src={moon} alt="" className="header-moon" />
+                               
                             </div>
                         </div>
                     </div>

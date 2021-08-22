@@ -1,4 +1,4 @@
-
+@import './../mixins/_Mixins';
 .plane-title
     font-weight: 700
     font-size: 48px
@@ -6,17 +6,62 @@
     line-height: 65px
     text-align: center
     margin-top: 100px
-.plane-group
-    margin-top: 100px
-    padding: 0px 30px
-    // display: grid
-    // grid-template-columns: 1fr 1fr
-    // grid-gap: 20px
-    // overflow: hidden
-// .plane-img
-//     align-items: center
-.plane-item__box
-    display: flex
-    justify-content: space-between
-    align-items: center
-    margin-bottom: 60px
+    margin-bottom: 160px
+.plane-groupf
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    column-gap: 20px
+    gap: 150px 20px
+    margin-bottom: 150px
+    +media_max(1640px)
+        grid-template-columns: 1fr 1fr
+        // gap-row: 120px 
+        padding: 0px 50px
+        .plane-imgp
+            padding: 200px 50px 0px 
+        .plane-imgj
+            padding: 80px 0px 0px
+        +media_max(1187px)
+            grid-template-columns: 1fr
+            text-align: center
+            gap-row: 50px
+            .plane-imgp
+            padding: 0px 0px 0px 
+            .plane-imgj
+            padding: 0px 0px 0px
+            +media_max(600px)
+                .plane-img
+                    width: 410px
+                    height: 100%
+                    padding: 0px 10px
+                .plane-imgp
+                    width: 410px
+                    height: 100%
+                    padding: 0px 10px
+                .plane-imgj
+                    width: 410px
+                    height: 100%
+                    padding: 0px 10px
+                .plane-imgc
+                    width: 400px
+                    height: 100%
+                    padding: 0px 10px
+
+.plane-grouph
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    column-gap: 90px
+    +media_max(1640px)
+        grid-template-columns: 1fr 1fr 1fr
+        grid-gap-row: 120px 
+        padding: 0px 50px
+        +media_max(1187px)
+            grid-template-columns: 1fr 1fr
+            padding: 0px 0px 0px 200px
+            +media_max(900px)
+                grid-template-columns: 1fr
+                padding: 0px 50px
+                text-align: center
+// .plane-imgp
+//     +media_max(1640px)
+//         padding: 200px 50px 0p

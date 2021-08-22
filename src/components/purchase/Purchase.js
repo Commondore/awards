@@ -11,8 +11,8 @@ function Purchase() {
                     <h3 className="purchase-slogan">Параметры тендера</h3>
                     <div className="purchase-group">
                         <div className="purchase-container">
-                            <div className="purchase__item"><span className="slogan">Проектный институт "Кыргыздортранспроект" </span></div>
                             <div className="purchase__item"><span className="slogan">Запрещающая организация </span> </div>
+                            <div className="purchase__item"><span className="slogan">Проектный институт "Кыргыздортранспроект" </span></div>
                             <div className="purchase__item-decor"> <span className="slogan">Метод закупок</span></div>
                             <div className="purchase__item-decor"><span className="slogan"> Прямого заключения договора</span> </div>
                             <div className="purchase__item"><span className="slogan">Дата публикации</span> </div>

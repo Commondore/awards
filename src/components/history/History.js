@@ -72,32 +72,25 @@ function History() {
                     <div className="img-his">
                         <img src={his1} alt="" className="img__decor" />
                     </div>
-                    <div className="img-his">
+                    <div className="img-his img-hisd">
                         <img src={his2} alt="" className="img__decor" />
                     </div>
-                </div>
-                <div className="img-list__box">
                     <div className="img-his">
                         <img src={his3} alt="" className="img__decor " />
                     </div>
-                    <div className="img-his  ">
+                    <div className="img-his img-hisd ">
                         <img src={hist4} alt="" className="img__decor" />
                     </div>
-                </div>
-                <div className="img-list__box">
                     <div className="img-his">
                         <img src={his5} alt="" className=" img__decor " />
                     </div>
-                    <div className="img-his">
+                    <div className="img-his img-hisd">
                         <img src={his6} alt="" className=" img__decor" />
                     </div>
-                </div>
-
-                <div className="img-list__box">
                     <div className="img-his">
                         <img src={his8} alt="" className=" img__decor " />
                     </div>
-                    <div className="img-his">
+                    <div className="img-his img-hisd">
                         <img src={his9} alt="" className=" img__decor" />
                     </div>
                 </div>

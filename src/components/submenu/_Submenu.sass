@@ -1,12 +1,16 @@
-
+@import './../mixins/_Mixins'
 
 .subnav__menu
     display: flex
     justify-content: space-between
+    width: 100%
     background: #357ECB
     margin-bottom: 50px
     margin-top: 50px
     border: 2px solid #357ECB
+    display: block
+    +media_max(1326px)
+        display: none
 .subnav__link
     display: inline-block
     font-family: 'Roboto Condensed'
@@ -16,10 +20,9 @@
     text-decoration: none
     padding: 20px 80px
 
-.subnav__link:hover
+.subnav__link.active
     background: #fff
     color: #357ECB
-    transition: 0.5s
 .subnav__link-decor
     padding: 20px 60px
 

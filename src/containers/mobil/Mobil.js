@@ -2,6 +2,7 @@ import './_Mobil.sass';
 import {Link} from 'react-router-dom'
 import React from 'react'
 import { useState } from 'react'
+import pluse from './plus.png'
 import moon from './../../assets/img/moon.png';
 import {NavLink} from 'react-router-dom';
 // import {FaPlus} from 'react-icons/fa'
@@ -13,10 +14,10 @@ function Mobil() {
     return (
         <div className="mobil">
             <div className="mobil-mail">
-                <div className="header-moon">
+                {/* <div className="header-moon">
 
                 <img src={moon} alt="" className="mobil-moon" />
-                </div>
+                </div> */}
                 <div className="header-news--right">
                     <a href="#" className="news-kg">Кыр</a>
                     <span className="news-kg--decor">/</span>
@@ -27,7 +28,6 @@ function Mobil() {
                 <div className="close">
                      <img src=" http://isfana.kg/static/img/svg/close.svg?8568ab22d923" alt="" className="close-head" /> 
                     
-                {/* <img src={FaPlus} alt="" className="close-head" /> */}
                 </div>
             </div>
 
@@ -73,7 +73,8 @@ function Mobil() {
                     </ul>
                 </NavLink>
                 </div>
-                <div className="mobil-drop">
+                <img src={pluse} alt="" className="img-plusf"/>
+                <div className="mobil-drop" > 
                 <NavLink to="/effort" onClick={() => setisLoadingSecond(!isLoadingSecond)}  className="mobil-link">Деятельность
                     <ul className={`menu__list ${isLoadingSecond ? 'menu__list-none' : ''}`} >
                         <li className="menu__item" >
@@ -93,7 +94,7 @@ function Mobil() {
                     </ul>
                 </NavLink>
                 </div>
-
+                <img src={pluse} alt="" className="img-pluss"/>
             <div className="mobil-drop">
 
                 <NavLink to="/pen" onClick={() => setisLoadingThird(!isLoadingThird)} className="mobil-link">Все обьекты
@@ -110,6 +111,7 @@ function Mobil() {
                     </ul>
                 </NavLink>
             </div>
+            <img src={pluse} alt="" className="img-plust"/>
                 <Link to="/plane" className="mobil-link">Партнеры </Link>
                 <Link to="/purchase" className="mobil-link">Госзакупки</Link>
                 <Link to="/news" className="mobil-link">Новoсти</Link>
