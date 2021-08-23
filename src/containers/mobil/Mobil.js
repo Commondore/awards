@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import React from 'react'
 import { useState } from 'react'
 import pluse from './plus.png'
-import moon from './../../assets/img/moon.png';
 import {NavLink} from 'react-router-dom';
 // import {FaPlus} from 'react-icons/fa'
 
@@ -26,12 +25,12 @@ function Mobil() {
                     <a href="#" className="news-kg">Eng</a>
                 </div>
                 <div className="close">
-                     <img src=" http://isfana.kg/static/img/svg/close.svg?8568ab22d923" alt="" className="close-head" /> 
-                    
+                     <img src=" http://isfana.kg/static/img/svg/close.svg?8568ab22d923" alt="" className="close-head" />
+
                 </div>
             </div>
 
-                
+
             {/* <form className="form__search-mobil">
                 <input className="input__header-mobil" type="search" placeholder="Сайттан издөө  "/>
                 <FaSearch className="btn-mobil" type="submit"/>
@@ -74,14 +73,14 @@ function Mobil() {
                 </NavLink>
                 </div>
                 <img src={pluse} alt="" className="img-plusf"/>
-                <div className="mobil-drop" > 
+                <div className="mobil-drop" >
                 <NavLink to="/effort" onClick={() => setisLoadingSecond(!isLoadingSecond)}  className="mobil-link">Деятельность
                     <ul className={`menu__list ${isLoadingSecond ? 'menu__list-none' : ''}`} >
                         <li className="menu__item" >
                             <Link to="/effort" className="drop__link">Изыскание и проектирование</Link>
                         </li>
                         <li className="menu__item">
-                            <Link to="/control" className="drop__link">Контроль и надзор за выполнением и 
+                            <Link to="/control" className="drop__link">Контроль и надзор за выполнением и
                             разработкой проектов
                              </Link>
                         </li>

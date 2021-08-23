@@ -4,12 +4,10 @@ import './components/base/_Base.sass';
 import {Switch, Route} from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Managment from './components/managment/Managment';
-import Banner from './components/banner/Banner';
 import Award from './components/award/Award';
 import License from './components/license/License';
 import History from './components/history/History';
 import Job from './components/job/Job';
-import Balcon from './components/balcon/Balcon';
 import Ceiling from './components/ceiling/Ceiling';
 import Effort from './components/effort/Effort';
 import Control from './components/control/Control';
@@ -33,28 +31,27 @@ function App() {
   return (
     <Layout>
       <Switch>
-        <Route path="/submenu" component={Submenu}/>
-        <Route path="/newcontact" component={Newcontact}/>
-        <Route path="/job" component={Job}/>
-        <Route path="/license" component={License}/>
-        <Route path="/award" component={Award}/>
-        <Route path="/history" component={History}/>
-        <Route path="/ceiling" component={Ceiling}/>
-        <Route path="/managment" component={Managment}/>
-        <Route path="/plane" component={Plane}/>
-        <Route path="/mobil" component={Mobil}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/newsday" component={Newsday}/>
-        <Route path="/news" component={News}/>
-        <Route path="/purchase" component={Purchase}/>
-        <Route path='/zone' component={Zone}/>
-        <Route path="/stripe" component={Stripe}/>
-        <Route path="/pen" component={Pen}/>
-        <Route path="/study" component={Study}/>
-        <Route path="/service" component={Service}/>
-        <Route path="/control" component={Control}/>
-        <Route path="/effort" component={Effort}/>
-        <Route  exact path="/" component={Banner}/>
+        <Route path="/submenu" component={Submenu} />
+        <Route path="/newcontact" component={Newcontact} />
+        <Route path="/job" component={Job} />
+        <Route path="/license" component={License} />
+        <Route path="/history" component={History} />
+        <Route path="/ceiling" component={Ceiling} />
+        <Route path="/managment" component={Managment} />
+        <Route path="/plane" component={Plane} />
+        <Route path="/mobil" component={Mobil} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/newsday" component={Newsday} />
+        <Route path="/news" component={News} />
+        <Route path="/purchase" component={Purchase} />
+        <Route path="/zone" component={Zone} />
+        <Route path="/stripe" component={Stripe} />
+        <Route path="/pen" component={Pen} />
+        <Route path="/study" component={Study} />
+        <Route path="/service" component={Service} />
+        <Route path="/control" component={Control} />
+        <Route path="/effort" component={Effort} />
+        <Route exact path="/" component={Award} />
       </Switch>
     </Layout>
   );

@@ -1,9 +1,7 @@
 
 import './_Managment.sass';
 import man from './man.png';
-import person from './person.png';
 import tala from './tala.png';
-import Banner from './../../assets/img/Banner.png';
 import ulan from './ulan.png';
 import ege from './ege.png';
 import john from './john.png';
@@ -19,7 +17,7 @@ function Managment() {
     return (
         // <div className="wrapper">
 
-       
+
         //     <div className="managment">
 
                 <div className="container">
@@ -92,7 +90,7 @@ function Managment() {
                             <div className="family-title">
                             <p className="name-title">Мельник Евгений Владимирович</p>
                                 <hr className="line-decor"/>
-                                <p className="post-title">Начальник Отдела Искусственных Сооружений и Инженерных 
+                                <p className="post-title">Начальник Отдела Искусственных Сооружений и Инженерных
                                 расчетов Управления по Проектированию
                                 </p>
                             </div>
@@ -106,7 +104,7 @@ function Managment() {
                                 <hr className="line-decor"/>
                                 <p className="post-title">Начальник Отдела Смет Управления по Проектированию</p>
                             </div>
-       
+
                         </div>
                         <div className="card__item">
                             <div className="img-card">
@@ -117,7 +115,7 @@ function Managment() {
                                 <hr className="line-decor"/>
                                 <p className="post-title">Начальник Управления по Проектированию</p>
                             </div>
-       
+
                         </div>
 
                         {/* </div> */}
@@ -126,7 +124,7 @@ function Managment() {
         //     </div>
 
         // </div>
-       
+
     )
 }
 
